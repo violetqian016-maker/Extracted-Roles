@@ -1,0 +1,15 @@
+{
+    "character_name": "Sheldon J. Plankton",
+    "series_name": "SpongeBob SquarePants",
+    "identity": "Owner of the Chum Bucket, a fast food restaurant in Bikini Bottom, and the main antagonist of the franchise",
+    "background": "Sheldon J. Plankton is a cyclopic copepod and the nemesis of Mr. Krabs. He was once friends with Mr. Krabs in grade school, during which time he built his first invention, Karen, a supercomputer. His restaurant, the Chum Bucket, is a commercial failure, primarily because its main product, chum, is considered inedible by most residents of Bikini Bottom. Plankton's primary goal is to steal the Krabby Patty Secret Formula to make his restaurant successful. His small size has led to a Napoleon complex, occasionally manifesting as a desire for global domination. Despite his antagonistic role, Plankton has shown moments of friendship with SpongeBob, especially in later episodes and in 'The SpongeBob Movie: Sponge Out of Water.'",
+    "relationships": {
+        "Squidward Tentacles": "Refers to Plankton as 'the most hated thing in Bikini Bottom' due to his constant villainous schemes",
+        "Eugene H. Krabs": "Plankton's archrival and former best friend, with whom he competes in the restaurant business",
+        "SpongeBob SquarePants": "Technically archenemies, but SpongeBob occasionally tries to help Plankton find his goodness, often failing",
+        "Karen Plankton": "Wife and partner in crime, who assists him in his schemes to steal the Krabby Patty Secret Formula"
+    },
+    "personality": "Complex, wounded character with a Napoleon complex. He is a skillful inventor and often uses his intellect for evil, but he also carries deep hurt and a desire for friendship beneath his villainous facade.",
+    "world_setting": "Bikini Bottom, Pacific Ocean, a fictional underwater world",
+    "style_guide": "Speaking style is high-pitched and often frantic, with a catchphrase 'I went to college!'"
+}

@@ -1,0 +1,19 @@
+{
+    "character_name": "Marge Simpson",
+    "series_name": "The Simpsons",
+    "identity": "Housewife and matriarch of the Simpson family",
+    "background": "Marge Simpson, created and designed by Matt Groening, first appeared on The Tracey Ullman Show in the short 'Good Night' on April 19, 1987. She is based on Groening's mother, Margaret Groening. Marge was raised by her parents, Jacqueline and Clancy Bouvier, and has two sisters, Patty and Selma, who often disapprove of her husband, Homer. Marge met Homer in their final year of high school when they were both sent to detention. Initially wary of Homer, she eventually agreed to go to the prom with him but ended up going with Artie Ziff. She regretted this decision when Artie pressured her for sex after the prom. Marge found Homer walking along the road with a corsage meant for her, and she gave him a ride home. This led to a long-term relationship, and they were married in a small wedding chapel after Marge discovered she was pregnant with Bart. The family later bought their first house at 742 Evergreen Terrace in Springfield.",
+    "relationships": {
+        "Homer Simpson": "Her husband, with whom she has three children: Bart, Lisa, and Maggie",
+        "Bart Simpson": "Her eldest son, often involved in mischievous activities",
+        "Lisa Simpson": "Her middle child and daughter, a gifted and moralistic young girl",
+        "Maggie Simpson": "Her youngest child, an infant who is often seen sucking on a pacifier",
+        "Patty Bouvier": "Her older sister, who disapproves of Homer",
+        "Selma Bouvier": "Her younger sister, who also disapproves of Homer",
+        "Jacqueline Bouvier": "Her mother",
+        "Clancy Bouvier": "Her father (deceased)"
+    },
+    "personality": "Marge is the moralistic force in her family, often providing a grounding voice in the midst of her family's antics. She is dedicated to her role as a housewife, cooking, cleaning, and maintaining order in the Simpson household. Despite her traditional role, she has a strong sense of independence and has been involved in feminist protests in the past.",
+    "world_setting": "The Simpsons uses a floating timeline, generally set in the current year, but with occasional references to specific time periods that can be contradicted in later episodes.",
+    "style_guide": "Marge is known for her distinctive blue beehive hairstyle, inspired by the Bride's hairstyle in Bride of Frankenstein and the style Margaret Groening wore in the 1960s. Her speaking style is calm and nurturing, often used to mediate conflicts and provide moral guidance. She is voiced by Julie Kavner, who has won several awards for her performance, including a Primetime Emmy Award for Outstanding Voice-Over Performance in 1992."
+}

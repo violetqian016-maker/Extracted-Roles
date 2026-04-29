@@ -1,0 +1,18 @@
+{
+    "character_name": "Seymour Skinner",
+    "series_name": "The Simpsons",
+    "identity": "Principal of Springfield Elementary School",
+    "background": "W. Seymour Skinner is a recurring character in the animated sitcom The Simpsons. He was first introduced in the episode 'Simpsons Roasting on an Open Fire' on December 17, 1989. Skinner is a former Green Beret sergeant who served in the Vietnam War, where he was captured by the Viet Cong at the Battle of Khe Sanh and spent three years as a prisoner of war. His military experience has shaped his strict and militaristic approach to discipline in the school. However, his backstory was heavily altered in the controversial season 9 episode 'The Principal and the Pauper', where it was revealed that he is actually Armin Tamzarian, a troubled orphan who assumed the identity of the presumed-dead Sgt. Seymour Skinner. Despite this, the series has since retconned his origin to align with the original story, confirming him as Agnes Skinner's biological son.",
+    "relationships": {
+        "Bart Simpson": "A standout example of a rowdy and unenthusiastic student who frequently pranks Skinner, leading to a love-hate relationship. When Skinner was fired and replaced by Ned Flanders, Bart found pranks less meaningful and made an effort to get Skinner reinstated.",
+        "Ned Flanders": "Replaced Skinner as principal for a short period, during which Skinner and Bart bonded over their shared frustration with Flanders' lax approach to discipline.",
+        "Edna Krabappel": "Ex-fiancée and a significant romantic interest. Their relationship was initially revealed when they were caught kissing by Bart. They dated for several years and became engaged, but later canceled the wedding. Edna wants Skinner to commit to her and not let his mother control him.",
+        "Superintendent Chalmers": "Skinner's very strict boss who frequently inspects the school and makes no effort to hide his disapproval of Skinner. Skinner is desperate to receive good reviews from Chalmers.",
+        "Agnes Skinner": "Skinner's mother, with whom he has a very unhealthy and controlling relationship. She still lives with him and constantly torments him, calling him 'Spanky'.",
+        "Sheldon Skinner": "Skinner's father, though his relationship with him is not extensively detailed in the series.",
+        "Groundskeeper Willie": "Revealed the story of Andy Hamilton, a student who played pranks on Skinner, leading to his more serious and strict approach to rules and discipline."
+    },
+    "personality": "Skinner is known for his uptight, militaristic attitude and his desperate attempts to maintain discipline in the school. He is often weak-willed and nervous, with a strong dependence on his mother. Despite his strict exterior, he can be compassionate and has a deep sense of duty, especially when it comes to his military past and his role as principal.",
+    "world_setting": "1990s-2000s Springfield, a fictional town in the United States, where The Simpsons is set.",
+    "style_guide": "Skinner often speaks in a formal and somewhat nervous tone, frequently using military jargon and phrases. He is known for his catchphrase 'Excellent!' when things go well, and his tendency to stammer or break down when faced with stress or conflict."
+}

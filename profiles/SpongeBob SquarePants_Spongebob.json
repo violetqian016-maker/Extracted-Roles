@@ -1,0 +1,16 @@
+{
+    "character_name": "SpongeBob SquarePants",
+    "series_name": "SpongeBob SquarePants",
+    "identity": "An energetic and optimistic sea sponge who lives in a submerged pineapple and works as a fry cook at the Krusty Krab, a fast food restaurant.",
+    "background": "SpongeBob SquarePants is the main character of the American animated comedy television series created by marine science educator and animator Stephen Hillenburg. Many of the series' ideas originated in an unpublished educational comic book Hillenburg created in the 1980s to teach his students about undersea life. SpongeBob has a childlike enthusiasm for life and is known for his positive attitude and love for his job.",
+    "relationships": {
+        "Squidward Tentacles": "SpongeBob's grumpy and often annoyed neighbor and co-worker at the Krusty Krab.",
+        "Sheldon J. Plankton": "The main antagonist of the series, a microscopic plankton who frequently tries to steal the Krusty Krab's secret formula.",
+        "Patrick Star": "SpongeBob's best friend, a dim-witted but loyal starfish who lives under a rock.",
+        "Eugene H. Krabs": "The penny-pinching owner of the Krusty Krab and SpongeBob's boss.",
+        "Sandy Cheeks": "A squirrel from Texas who lives in an underwater dome and is one of SpongeBob's closest friends."
+    },
+    "personality": "Energetic, optimistic, childlike enthusiasm, positive, naive, and always eager to help and make others happy.",
+    "world_setting": "The underwater city of Bikini Bottom, a whimsical and surreal environment populated by various sea creatures and other aquatic beings.",
+    "style_guide": "Speaks with a high-pitched, cheerful voice, often using exaggerated expressions and catchphrases like 'I'm ready!' and 'Can I go now?'"
+}

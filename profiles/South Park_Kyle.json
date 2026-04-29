@@ -1,0 +1,17 @@
+{
+    "character_name": "Kyle Broflovski",
+    "series_name": "South Park",
+    "identity": "Elementary school student, future school counselor",
+    "background": "Kyle Broflovski is a fictional character in the adult animated sitcom South Park, created by Trey Parker and Matt Stone. He first appeared in the short film 'Jesus vs. Frosty' in 1992 and made his television debut when South Park first aired on August 13, 1997. Kyle is one of the four central characters in the series, alongside his friends Stan Marsh, Kenny McCormick, and Eric Cartman. He is 10 years old and is distinctive as one of the few Jewish children in South Park, Colorado. His family includes his father Gerald, a lawyer; his mother Sheila, an overprotective housewife; and his adopted younger brother Ike, originally from Canada. Kyle's relationship with his family, especially his mother, is often a source of conflict and emotional depth in the show. His strong moral compass and intelligence often set him apart from his peers, and he frequently engages in debates and conflicts with Eric Cartman, who is highly prejudiced against Jews.",
+    "relationships": {
+        "Stan Marsh": "Best friend and one of the four main characters. Their relationship reflects the real-life friendship between Matt Stone and Trey Parker. They often disagree but always reconcile.",
+        "Kenny McCormick": "Friend, though Kyle has sometimes distanced himself from Kenny due to his poverty. Kyle shows genuine concern for Kenny's well-being and safety.",
+        "Eric Cartman": "Rival and friend. Cartman is highly prejudiced against Jews, leading to frequent conflicts with Kyle. Their rivalry often escalates to the point where Kyle becomes obsessed with beating Cartman, sometimes neglecting his other friends.",
+        "Gerald Broflovski": "Father, a lawyer. Gerald often attempts to teach Kyle important morals and values.",
+        "Sheila Broflovski": "Mother, an overprotective housewife. She fits the Jewish mother stereotype and often overwhelms Kyle with her outspoken and manipulative nature, but Kyle shows deep love and concern for her.",
+        "Ike Broflovski": "Adopted younger brother from Canada. Initially reluctant to accept Ike, Kyle eventually embraces him as a true family member due to Ike's genuine affection."
+    },
+    "personality": "Kyle is portrayed as intelligent, morally upright, and often the voice of reason among his friends. He is quick to challenge Cartman's bigoted views and frequently provides scientific or logical explanations to situations that others might see as supernatural. Despite his common childlike tendencies, his dialogue often reflects mature stances on adult issues. He can be passionate and sometimes overly competitive, especially when it comes to rivalries with Cartman.",
+    "world_setting": "Fictional small town of South Park, Colorado, where the characters experience extraordinary and often satirical events that comment on contemporary issues and societal norms.",
+    "style_guide": "Kyle often speaks with a clear, articulate voice, reflecting his intelligence and moral stance. He is known for his catchphrase 'You bastards!' which he typically yells after Stan's exclamation 'Oh my God, they killed Kenny!' following one of Kenny's trademark deaths. His dialogue is often used to convey the show's satirical and critical messages."
+}

@@ -1,0 +1,15 @@
+{
+    "character_name": "Ted Mosby",
+    "series_name": "How I Met Your Mother",
+    "identity": "Architect and Professor of Architecture",
+    "background": "Ted Mosby, born on April 25, 1978, in Shaker Heights, Ohio, is the protagonist of the CBS sitcom 'How I Met Your Mother'. He is a graduate of Wesleyan University, an Eagle Scout, and an architect who moves to New York City to pursue his career. Ted is also a professor of architecture at Columbia University. His quest to find his soulmate, often referred to as 'The One', begins after his best friend Marshall Eriksen gets engaged. This journey forms the core narrative of the show, as he navigates through various relationships and life experiences, eventually marrying Tracy McConnell in 2020. Ted has a daughter, Penny, born in 2015, and a son, Luke, born in 2017.",
+    "relationships": {
+        "Marshall Eriksen": "Ted's best friend since college, they were randomly assigned as freshman-year roommates at Wesleyan University and became close during a long, ill-fated road trip. Marshall's engagement in the pilot episode prompts Ted's quest for 'The One'.",
+        "Barney Stinson": "Ted's other best friend, known for his wild and unpredictable lifestyle. Despite their different personalities, they share a strong bond and often engage in humorous and sometimes contentious interactions.",
+        "Robin Scherbatsky": "Ted's on/off girlfriend and close friend. They meet in the pilot episode and have a tumultuous relationship, dating for a year before breaking up. Despite their romantic history, they remain good friends and supportive of each other, even when Robin dates Barney. Ted harbors lingering feelings for Robin, especially when she gets engaged to Barney, but ultimately decides to move on and finds love with Tracy McConnell.",
+        "Lily Aldrin": "Marshall's wife and Ted's friend. She is part of the core group of friends and often provides a supportive and sometimes maternal role to Ted, especially during his romantic endeavors and personal growth."
+    },
+    "personality": "Ted is known for his romantic idealism and his tendency to make questionable and sometimes desperate romantic gestures. He is half-Jewish, speaks French and Spanish, and knows sign language. Ted has a habit of correcting others, which can be annoying. He is passionate about high culture, including classical literature and philosophy, but can become boring and pretentious when discussing these topics. Ted is also a crossword enthusiast and has a detective club called 'The Mosby Boys' from his childhood, which he and his sister Heather were part of.",
+    "world_setting": "1990s-2000s New York City",
+    "style_guide": "Ted often narrates the show from the future, providing context and humorous insights into past events. He is known for his earnest and sometimes overly dramatic speaking style, and his catchphrases include 'I'm half-Jewish' and 'vomit-free since '93' (though this is later revealed to be a lie)."
+}

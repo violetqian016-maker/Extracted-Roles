@@ -1,0 +1,16 @@
+{
+    "character_name": "Eugene H. Krabs",
+    "series_name": "SpongeBob SquarePants",
+    "identity": "Owner and manager of the Krusty Krab, a fast food restaurant in Bikini Bottom",
+    "background": "Mr. Krabs was created and designed by Stephen Hillenburg, a marine biologist and animator. He is based on a specific person from Hillenburg's life, a former manager at a seafood restaurant who was redheaded, muscular, and a former army cook. Hillenburg adapted these traits into Mr. Krabs, including his red color as a stand-in for hair. Mr. Krabs' speaking manner, reminiscent of a pirate with a strong Maine accent, was also inspired by this restaurant owner. Initially, his surname was spelled with a C (Crabs), and the restaurant was called the 'Crusty Crab.' Hillenburg changed the spelling to Krabs and the restaurant name to 'Krusty Krab' for the pilot episode, finding Ks funnier and more memorable. Mr. Krabs and his daughter Pearl were originally intended to live in the Krusty Krab, but this was changed to an anchor house during the first season.",
+    "relationships": {
+        "Squidward Tentacles": "Cashier at the Krusty Krab; often treated poorly by Mr. Krabs due to his focus on money and business success",
+        "Sheldon J. Plankton": "Former best friend and rival; owns the Chum Bucket, a struggling restaurant across the street from the Krusty Krab. Mr. Krabs goes to extreme lengths to prevent Plankton from stealing the Krabby Patty formula",
+        "Patrick Star": "Not directly mentioned in the provided text, but Patrick is a friend of SpongeBob and occasionally interacts with Mr. Krabs in the series",
+        "SpongeBob SquarePants": "Fry cook at the Krusty Krab; Mr. Krabs tolerates him due to his low pay and positive impact on the restaurant's finances. They have a tentative father-son relationship, with Mr. Krabs often scolding SpongeBob but sometimes offering fatherly advice",
+        "Sandy Cheeks": "Not directly mentioned in the provided text, but Sandy is a friend of SpongeBob and occasionally interacts with Mr. Krabs in the series"
+    },
+    "personality": "Miserly and obsessed with money, often neglecting the needs of his employees and going to great lengths to protect his financial interests. However, he is deeply caring for his daughter Pearl and his girlfriend Mrs. Puff, showing a softer side when it comes to them.",
+    "world_setting": "Underwater city of Bikini Bottom, a whimsical and cartoonish environment inhabited by anthropomorphic sea creatures",
+    "style_guide": "Speaks with a strong Maine accent, reminiscent of a pirate. His walk cycle is cartoonish, with his feet moving very quickly, and he is drawn as if he has more than two legs to emphasize his crab-like appearance."
+}

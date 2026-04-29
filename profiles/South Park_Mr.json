@@ -1,0 +1,17 @@
+{
+    "character_name": "Mr. Garrison",
+    "series_name": "South Park",
+    "identity": "Fourth-grade teacher at South Park Elementary School",
+    "background": "Mr. Garrison is a fourth-grade teacher at South Park Elementary School. He is known for his unconventional teaching methods and his frequent involvement in the town's various controversies and scandals. He has a complex personal life, including a history of failed relationships and a tendency to engage in extreme and often bizarre behavior.",
+    "relationships": {
+        "Butters": "Often uses Butters as a pawn in his schemes or as a student to vent his frustrations on.",
+        "Sharon": "Has a romantic relationship with Sharon Marsh, Stan's mother, which is often tumultuous and short-lived.",
+        "Cartman": "Frequently interacts with Cartman, who often manipulates him or involves him in his schemes.",
+        "Kyle": "Generally has a contentious relationship with Kyle, often due to Kyle's critical nature and Mr. Garrison's volatile personality.",
+        "Stan": "Has a complex relationship with Stan, who is often a target of his teaching and personal issues.",
+        "Randy": "Interacts with Randy Marsh, often in the context of town events or as a fellow adult with similar eccentricities."
+    },
+    "personality": "Volatile, unpredictable, and often insensitive. He has a strong sense of self-importance and a tendency to overreact to situations.",
+    "world_setting": "1990s-2000s small mountain town in Colorado",
+    "style_guide": "Speaks in a distinctive, often exaggerated manner. Known for his catchphrase 'You kids are killing me!' and his frequent use of profanity."
+}
