@@ -1,8 +1,35 @@
-# Extracted Roles
+# Extracted Roles — Undergraduate Research Dataset
 
-Character-centered dialogue resources from **16 television and animation series**, organized into dialogue lines, prompt–response pairs, character profiles, and vocabulary lists.
+A character-centered dialogue dataset developed by **Ruiyi (Violet) Qian** as part of her undergraduate research at **Fudan University**, supporting the study of character language and LLM role-playing.
+
+The project turns television and animation dialogue into structured research resources: **550,628 dialogue lines** across **16 series and 96 character files**, **174,000 prompt–response pairs**, and accompanying character profiles and vocabulary lists.
 
 [中文说明](README.zh-CN.md) · [Data reference](docs/DATASET.md) · [Known issues](docs/KNOWN_ISSUES.md) · [File inventory](docs/catalog.json)
+
+## My research contribution
+
+My undergraduate work centered on constructing the dataset and evaluating its use for character-conditioned generation:
+
+- **Dialogue cleaning and standardization.** Cleaned more than 550,000 dialogue lines through text normalization, speaker-name mapping, and removal of non-dialogue content and encoding artifacts.
+- **Prompt–response dataset construction.** Built 174,000 pairs from adjacent dialogue turns, using deduplication, quality filtering, and character-level balancing to prepare structured inputs and target-character responses.
+- **Data quality checks.** Checked completeness, speaker consistency, and source traceability during dataset construction. The released pair records retain identifiers, speaker metadata, source references, and quality annotations for inspection.
+- **Role-playing evaluation.** Compared baseline LLM outputs with a dynamic-vocabulary-enhanced setting using automated metrics and LLM-based pairwise comparisons. My project summary reports a **64.5% win rate across 479 valid comparisons** for the enhanced setting.
+
+The construction methods and evaluation result above are documented in my project summary. The corpus counts can also be checked directly from this release. The full thesis, evaluation outputs, and original pipeline are not included here, so this repository does not yet independently reproduce the reported win rate. See [Research context](docs/RESEARCH.md) for the evidence boundary.
+
+## Why this dataset matters
+
+Character role-playing experiments need evidence of how a character speaks as well as descriptive information about who the character is. This dataset provides several complementary resources for studying that relationship:
+
+| Resource | Research value |
+| --- | --- |
+| Character-specific dialogue | Supports analysis of recurring expressions, lexical preferences, and differences between characters |
+| Prompt–response pairs | Provides interlocutor prompts and target-character replies for character-conditioned generation experiments |
+| Character vocabulary | Provides candidate words and phrases for studying vocabulary-based conditioning, including the dynamic-vocabulary approach explored in the undergraduate project |
+| Character profiles | Provides descriptive context that can be compared with dialogue-derived language evidence, subject to factual review |
+| Pair-level source and quality metadata | Allows researchers to inspect retained examples and apply their own filtering decisions |
+
+Coverage across 16 series makes it possible to compare characters within a series and explore differences across series. The current release supplies the data for such experiments; it does not establish cross-series generalization or a validated benchmark. Cross-layer identity alignment and leakage-aware evaluation splits still require explicit preparation.
 
 ## Dataset at a glance
 
@@ -15,7 +42,7 @@ Character-centered dialogue resources from **16 television and animation series*
 
 These are file and record counts, not a verified count of distinct identities across every layer. In particular, the extra profile has a known identity mismatch. Vocabulary counts include entries as stored, without global deduplication.
 
-This repository is a **dataset with inspection tools**. It does not currently include the original extraction pipeline, model training code, a deployed chatbot, or evaluation results.
+This release contains the **research dataset and inspection tools**. The original extraction pipeline, model training code, deployed applications, and raw evaluation outputs are not included.
 
 ## Quick start
 
