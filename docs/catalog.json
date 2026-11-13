@@ -1,0 +1,2712 @@
+{
+  "schema_version": 1,
+  "file_counts": {
+    "dialogues": 96,
+    "pairs": 96,
+    "profiles": 97,
+    "vocabulary": 96
+  },
+  "record_counts": {
+    "dialogues": 550628,
+    "pairs": 174000,
+    "profiles": 97,
+    "vocabulary": 186109
+  },
+  "files": [
+    {
+      "path": "Extracted-Roles/Avatar/Avatar_Aang.txt",
+      "layer": "dialogues",
+      "records": 1796,
+      "bytes": 93367,
+      "sha256": "d7025ac4b5d228e9d60f026051d645b33834d628c0888bc88117110218f95952"
+    },
+    {
+      "path": "Extracted-Roles/Avatar/Avatar_Katara.txt",
+      "layer": "dialogues",
+      "records": 1437,
+      "bytes": 78661,
+      "sha256": "7d98c375261cbe19a689fd9a4b857aae362a6e75a0c2f503e274b446d0785b06"
+    },
+    {
+      "path": "Extracted-Roles/Avatar/Avatar_Sokka.txt",
+      "layer": "dialogues",
+      "records": 1639,
+      "bytes": 97035,
+      "sha256": "bf1190327c0bcdb2da28fdcd52ebcb9b16366f6a574fdfd5ea4d88a855904425"
+    },
+    {
+      "path": "Extracted-Roles/Big Bang Theory/Big Bang Theory_Amy.txt",
+      "layer": "dialogues",
+      "records": 3419,
+      "bytes": 203496,
+      "sha256": "99c4b4225d0099febaf80b02048bfa63363fb78b1163b2add26efeb51374e579"
+    },
+    {
+      "path": "Extracted-Roles/Big Bang Theory/Big Bang Theory_Bernadette.txt",
+      "layer": "dialogues",
+      "records": 2636,
+      "bytes": 135382,
+      "sha256": "fbe84d571c8b5b0488974cf2b84a781d55ed013c464be583918ecd8b0e67ad35"
+    },
+    {
+      "path": "Extracted-Roles/Big Bang Theory/Big Bang Theory_Howard.txt",
+      "layer": "dialogues",
+      "records": 5737,
+      "bytes": 338960,
+      "sha256": "2116511f89d60c3bb9e76bc30367d92359f6c58ed97acc6e1abed8c39bb08297"
+    },
+    {
+      "path": "Extracted-Roles/Big Bang Theory/Big Bang Theory_Leonard.txt",
+      "layer": "dialogues",
+      "records": 9638,
+      "bytes": 501798,
+      "sha256": "4a589e25b6d1027087fbbba58a2ef0e66bb71242d0cb3015291417dc3351bc16"
+    },
+    {
+      "path": "Extracted-Roles/Big Bang Theory/Big Bang Theory_Penny.txt",
+      "layer": "dialogues",
+      "records": 7476,
+      "bytes": 383648,
+      "sha256": "68f1f54b9613c483c013b5e23e68c5432cc3ecef4b7a5a8816c793d9f5202fb3"
+    },
+    {
+      "path": "Extracted-Roles/Big Bang Theory/Big Bang Theory_Raj.txt",
+      "layer": "dialogues",
+      "records": 4576,
+      "bytes": 290657,
+      "sha256": "9f3cf5e81ca53bbd50f88f753acc6d0a0019d70042bdce89bbd2f2f2ef3ec3f5"
+    },
+    {
+      "path": "Extracted-Roles/Big Bang Theory/Big Bang Theory_Sheldon.txt",
+      "layer": "dialogues",
+      "records": 11482,
+      "bytes": 943776,
+      "sha256": "3656621a0a622f6f8e810141ce62f920cf869973174bffd9abec3faad951a035"
+    },
+    {
+      "path": "Extracted-Roles/Bones/Bones_Angela.txt",
+      "layer": "dialogues",
+      "records": 3753,
+      "bytes": 223239,
+      "sha256": "94e36a07a3e6b7f38d631b0958ed36163b59a128fe76db1f5906f7bd9468dd46"
+    },
+    {
+      "path": "Extracted-Roles/Bones/Bones_Booth.txt",
+      "layer": "dialogues",
+      "records": 16246,
+      "bytes": 901403,
+      "sha256": "24c1e103e4640fb217cef2943a5b40298eece08ae658ef7428cfb67ec7b69e3c"
+    },
+    {
+      "path": "Extracted-Roles/Bones/Bones_Brennan.txt",
+      "layer": "dialogues",
+      "records": 14837,
+      "bytes": 809477,
+      "sha256": "e37fdbebe2de41098f40d71b76f4e4e8a140dee1105f92df3777d75f46658f13"
+    },
+    {
+      "path": "Extracted-Roles/Bones/Bones_Cam.txt",
+      "layer": "dialogues",
+      "records": 3853,
+      "bytes": 225376,
+      "sha256": "5d7fbd7042f50d89d1e4148f6ebf54c6027c0c8ec9e553d2c02eeb8ba7520e19"
+    },
+    {
+      "path": "Extracted-Roles/Bones/Bones_Hodgins.txt",
+      "layer": "dialogues",
+      "records": 4626,
+      "bytes": 293803,
+      "sha256": "d289e85dbf150baedab36ffa56508a9920289e0d77a37621744537d3c761c448"
+    },
+    {
+      "path": "Extracted-Roles/Bones/Bones_Sweets.txt",
+      "layer": "dialogues",
+      "records": 2266,
+      "bytes": 147015,
+      "sha256": "c4fd873df1a47b81154f08adbd47325b2a1f7a4bcd3422f44fccc297963eeb58"
+    },
+    {
+      "path": "Extracted-Roles/Bones/Bones_Zack.txt",
+      "layer": "dialogues",
+      "records": 1685,
+      "bytes": 106317,
+      "sha256": "bb887b2f935f1f2b05489525c2ac54379a05a50be50d83cc3393a33d1f889aa6"
+    },
+    {
+      "path": "Extracted-Roles/Friends/Friends_CHANDLER.txt",
+      "layer": "dialogues",
+      "records": 7939,
+      "bytes": 420038,
+      "sha256": "c3c3615fa85f68afadf1a2f4c376c282815cfbeb895bc1178cc48d89dd7411a5"
+    },
+    {
+      "path": "Extracted-Roles/Friends/Friends_JOEY.txt",
+      "layer": "dialogues",
+      "records": 7777,
+      "bytes": 424385,
+      "sha256": "ec2cf2d943b30845527cb47c7dd761aa11384f7cadf3565bae0a3c9fed550b96"
+    },
+    {
+      "path": "Extracted-Roles/Friends/Friends_MONICA.txt",
+      "layer": "dialogues",
+      "records": 7843,
+      "bytes": 398595,
+      "sha256": "3606c075f45b154ae5018c518b285139471d28c2dc4bdcc1cc8b02739c370956"
+    },
+    {
+      "path": "Extracted-Roles/Friends/Friends_PHOEBE.txt",
+      "layer": "dialogues",
+      "records": 7034,
+      "bytes": 388488,
+      "sha256": "55150bec32be7d731d2cc6fe342126c3a2e2579683ee6fd9aaf38271279c40bc"
+    },
+    {
+      "path": "Extracted-Roles/Friends/Friends_RACHEL.txt",
+      "layer": "dialogues",
+      "records": 8725,
+      "bytes": 472759,
+      "sha256": "003c41240b897096eec5890f0f4db128427ddcb25f0f01fcf0de4b39946a143f"
+    },
+    {
+      "path": "Extracted-Roles/Friends/Friends_ROSS.txt",
+      "layer": "dialogues",
+      "records": 8580,
+      "bytes": 477042,
+      "sha256": "89dccf975a4b2f3b27747a797a8bdb3e394f38907fe7458bc93447f8046434ad"
+    },
+    {
+      "path": "Extracted-Roles/Futurama/Futurama_BENDER.txt",
+      "layer": "dialogues",
+      "records": 3395,
+      "bytes": 193045,
+      "sha256": "8d48f7f1e17a1bf45a01ae98adae58397b24d5dcc5ba06727c0e023fe25618d0"
+    },
+    {
+      "path": "Extracted-Roles/Futurama/Futurama_FRY.txt",
+      "layer": "dialogues",
+      "records": 3791,
+      "bytes": 197758,
+      "sha256": "4865f8baebb00b90eac68021c2d7a4cb12113f399d624fa94742d25ff682a4ba"
+    },
+    {
+      "path": "Extracted-Roles/Futurama/Futurama_LEELA.txt",
+      "layer": "dialogues",
+      "records": 2999,
+      "bytes": 164452,
+      "sha256": "97883ffb7952ae4b8c56aa50d4a0ecf56070aad3fcfecc8325c3d9752d27e702"
+    },
+    {
+      "path": "Extracted-Roles/GoT/GoT_Tyrion_Lannister.txt",
+      "layer": "dialogues",
+      "records": 1760,
+      "bytes": 137147,
+      "sha256": "651d7efd8ede07461e078d0b150e42c2f318728f4caa5339d8e66b5c3c59a225"
+    },
+    {
+      "path": "Extracted-Roles/HIMYM/HIMYM_Barney.txt",
+      "layer": "dialogues",
+      "records": 5003,
+      "bytes": 348803,
+      "sha256": "c56205c0fca926230df2a15a1d4a0bf310d46fb7ca23947e85e3934842d2f70c"
+    },
+    {
+      "path": "Extracted-Roles/HIMYM/HIMYM_Lily.txt",
+      "layer": "dialogues",
+      "records": 3804,
+      "bytes": 213993,
+      "sha256": "a34aa84ee794d5868423d21ce8b051f54c89af08d0d357f617f2384b8c398faf"
+    },
+    {
+      "path": "Extracted-Roles/HIMYM/HIMYM_Marshall.txt",
+      "layer": "dialogues",
+      "records": 4585,
+      "bytes": 281972,
+      "sha256": "582b88163076dfad1b2d726ac0196e3cebcaf10a538daa84306aa594afa21bce"
+    },
+    {
+      "path": "Extracted-Roles/HIMYM/HIMYM_Robin.txt",
+      "layer": "dialogues",
+      "records": 3980,
+      "bytes": 221258,
+      "sha256": "db86a177bf1a6278c25480a4e8aa7138cd1c37d2b98aac6cd45956bc066ee6e8"
+    },
+    {
+      "path": "Extracted-Roles/HIMYM/HIMYM_Ted.txt",
+      "layer": "dialogues",
+      "records": 6435,
+      "bytes": 378417,
+      "sha256": "56b0e2863457ef8fd61cf6118262bb6775f231560b63c7fccfaec90adbcb14a5"
+    },
+    {
+      "path": "Extracted-Roles/House/House_Cameron.txt",
+      "layer": "dialogues",
+      "records": 3221,
+      "bytes": 178811,
+      "sha256": "495eb31d52c3bbc4d595f64ec7776d51c8b9411526cd21a68abf5ea6e3a04c98"
+    },
+    {
+      "path": "Extracted-Roles/House/House_Chase.txt",
+      "layer": "dialogues",
+      "records": 4365,
+      "bytes": 254347,
+      "sha256": "a2c8b19ecf799b0807cbea9f34b6ceea0d0e3fa785eabb554f2ac20e8f2cd802"
+    },
+    {
+      "path": "Extracted-Roles/House/House_Cuddy.txt",
+      "layer": "dialogues",
+      "records": 3531,
+      "bytes": 207071,
+      "sha256": "7af45dd5aeea1e9cc722960bf76f46e394a5e54ba7babbd9105c4447e341839f"
+    },
+    {
+      "path": "Extracted-Roles/House/House_Foreman.txt",
+      "layer": "dialogues",
+      "records": 5744,
+      "bytes": 348544,
+      "sha256": "05ad22e17ef1e9e639137175b5b456c3e399548c09f295fbeb1be4fca9826e5b"
+    },
+    {
+      "path": "Extracted-Roles/House/House_House.txt",
+      "layer": "dialogues",
+      "records": 18778,
+      "bytes": 1410529,
+      "sha256": "1764e67195bcc6ee09079a2b9cadc80f0dca5f5585901d8f59479950464c7b84"
+    },
+    {
+      "path": "Extracted-Roles/House/House_Taub.txt",
+      "layer": "dialogues",
+      "records": 3478,
+      "bytes": 206864,
+      "sha256": "4f35aefa8b43bd9269b1c64f4a935f9a400d86d5440c43bdb88a726fbbe1a84a"
+    },
+    {
+      "path": "Extracted-Roles/House/House_Thirteen.txt",
+      "layer": "dialogues",
+      "records": 2098,
+      "bytes": 123510,
+      "sha256": "27a1c11363d6bb704c6ad5d427dc26c257cde2f384b59a02698102b620d7f812"
+    },
+    {
+      "path": "Extracted-Roles/House/House_Wilson.txt",
+      "layer": "dialogues",
+      "records": 4422,
+      "bytes": 269338,
+      "sha256": "0ebe0a5cbfde6ca24c2f6309917991c7b7c3c3d8d542b32bf7e68bcd4f73d6d6"
+    },
+    {
+      "path": "Extracted-Roles/My Little Pony/MLP_Apple_Bloom.txt",
+      "layer": "dialogues",
+      "records": 1362,
+      "bytes": 75854,
+      "sha256": "cb63d5f3c008f3374b2ffad1ecbe5d49ba61bab25a4edbe78ccaec4f8f7858a3"
+    },
+    {
+      "path": "Extracted-Roles/My Little Pony/MLP_Applejack.txt",
+      "layer": "dialogues",
+      "records": 2748,
+      "bytes": 180131,
+      "sha256": "dc6afc470c49d2c12b4f01b70a21859fc5a27c140846ca87543d99abafb4d0c5"
+    },
+    {
+      "path": "Extracted-Roles/My Little Pony/MLP_Fluttershy.txt",
+      "layer": "dialogues",
+      "records": 2109,
+      "bytes": 130615,
+      "sha256": "da5e73811ac15ee07185e9b5a68db0303ca1ab8a77d70412bf4eb1adde50ec59"
+    },
+    {
+      "path": "Extracted-Roles/My Little Pony/MLP_Pinkie_Pie.txt",
+      "layer": "dialogues",
+      "records": 2833,
+      "bytes": 187458,
+      "sha256": "59c909efc13bec7980ce905d91e7b91b323d69e2eb6bf34856d9f9bc646bfcbd"
+    },
+    {
+      "path": "Extracted-Roles/My Little Pony/MLP_Rainbow_Dash.txt",
+      "layer": "dialogues",
+      "records": 3072,
+      "bytes": 186358,
+      "sha256": "5f6c5cdbdc4ff2913f5bb2813cfeac0ac2476abbe3e485b41447a8bcedff5d5e"
+    },
+    {
+      "path": "Extracted-Roles/My Little Pony/MLP_Rarity.txt",
+      "layer": "dialogues",
+      "records": 2660,
+      "bytes": 199643,
+      "sha256": "32383edbefe6348f784b6b947dac4835c20f78a08461244431d8cafec67087b4"
+    },
+    {
+      "path": "Extracted-Roles/My Little Pony/MLP_Spike.txt",
+      "layer": "dialogues",
+      "records": 2268,
+      "bytes": 131724,
+      "sha256": "5fdae9186a5632016cc22f1ac393f52dacf27c59c389e265d0aafdf1f7e0476c"
+    },
+    {
+      "path": "Extracted-Roles/My Little Pony/MLP_Twilight_Sparkle.txt",
+      "layer": "dialogues",
+      "records": 4745,
+      "bytes": 336580,
+      "sha256": "1323aaede4f0311c66a6339d4d753c3276ae926193589deacb7ceb701ac66dca"
+    },
+    {
+      "path": "Extracted-Roles/Park and Recreation/Park and Recreation_ANDY_DWYER.txt",
+      "layer": "dialogues",
+      "records": 5375,
+      "bytes": 169406,
+      "sha256": "d6f3e0f215778410bf61b4a9b459c173816c1b7998179a354b565c5cb64128db"
+    },
+    {
+      "path": "Extracted-Roles/Park and Recreation/Park and Recreation_ANN_PERKINS.txt",
+      "layer": "dialogues",
+      "records": 4216,
+      "bytes": 132431,
+      "sha256": "3f756b79ff0193c5bcdc34637a02811bddb2911ccf78330c96e14d6366722bb1"
+    },
+    {
+      "path": "Extracted-Roles/Park and Recreation/Park and Recreation_APRIL_LUDGATE.txt",
+      "layer": "dialogues",
+      "records": 3627,
+      "bytes": 117066,
+      "sha256": "edaec807c7381b46c84401ff1e22d6edfd6bcf1ebb8ae0942e4aa51c1b1a263d"
+    },
+    {
+      "path": "Extracted-Roles/Park and Recreation/Park and Recreation_BEN_WYATT.txt",
+      "layer": "dialogues",
+      "records": 5148,
+      "bytes": 174866,
+      "sha256": "d7fd5cd7f28299a7cfafec76e55faf81e477681e84b63aab0b9e7ebdd14cd12a"
+    },
+    {
+      "path": "Extracted-Roles/Park and Recreation/Park and Recreation_CHRIS_TRAEGER.txt",
+      "layer": "dialogues",
+      "records": 2833,
+      "bytes": 106349,
+      "sha256": "264dab5b86a19d2ea948413b56c4a4c76eb93c5e68977d521b6c740dd1d56fe3"
+    },
+    {
+      "path": "Extracted-Roles/Park and Recreation/Park and Recreation_LESLIE_KNOPE.txt",
+      "layer": "dialogues",
+      "records": 18087,
+      "bytes": 658375,
+      "sha256": "76a29e0c1fb86c7e115d2702d80bdd89ec1db0a1b055a7b0b062991cc5b520df"
+    },
+    {
+      "path": "Extracted-Roles/Park and Recreation/Park and Recreation_RON_SWANSON.txt",
+      "layer": "dialogues",
+      "records": 4995,
+      "bytes": 185366,
+      "sha256": "6151f1ae304490a0adee644a8a27324c85ce97b2866463f92abefc20535c63b7"
+    },
+    {
+      "path": "Extracted-Roles/Park and Recreation/Park and Recreation_TOM_HAVERFORD.txt",
+      "layer": "dialogues",
+      "records": 6287,
+      "bytes": 219914,
+      "sha256": "6b2038a1fc32b63e9e203b13bff0a89aa59f29efc9ef463f842a881b8155ded4"
+    },
+    {
+      "path": "Extracted-Roles/Seinfeld/Seinfeld_ELAINE.txt",
+      "layer": "dialogues",
+      "records": 7969,
+      "bytes": 358584,
+      "sha256": "6b6601b9301d1a004956beade860cd27e8b27782210a5f3108c9730d3f62c7e9"
+    },
+    {
+      "path": "Extracted-Roles/Seinfeld/Seinfeld_GEORGE.txt",
+      "layer": "dialogues",
+      "records": 9705,
+      "bytes": 520457,
+      "sha256": "596cdbe70ebfe82f795d54afae2a510b9e5326ab9f37a074b02d329d251dba1f"
+    },
+    {
+      "path": "Extracted-Roles/Seinfeld/Seinfeld_JERRY.txt",
+      "layer": "dialogues",
+      "records": 14793,
+      "bytes": 725957,
+      "sha256": "c00da04560f812109b02645a39b6217417da44f5c8cc7039f13cc1e19bfcc8d6"
+    },
+    {
+      "path": "Extracted-Roles/Seinfeld/Seinfeld_KRAMER.txt",
+      "layer": "dialogues",
+      "records": 6659,
+      "bytes": 337569,
+      "sha256": "783f183ff816b88d67e19bcc1df18f2b43d62b36c1478bfc5d6716866c33524b"
+    },
+    {
+      "path": "Extracted-Roles/Sex and the city/SATC_Carrie.txt",
+      "layer": "dialogues",
+      "records": 13948,
+      "bytes": 638580,
+      "sha256": "129913838c8632a538b3d5b63d29b65762a8be41827dfb687a9e35ad171bb8c1"
+    },
+    {
+      "path": "Extracted-Roles/Sex and the city/SATC_Charlotte.txt",
+      "layer": "dialogues",
+      "records": 3667,
+      "bytes": 134661,
+      "sha256": "703be745ccfebfc94d5c8203b578cb9cd8e2253a2a927ebf464bb6fd0068e1a1"
+    },
+    {
+      "path": "Extracted-Roles/Sex and the city/SATC_Miranda.txt",
+      "layer": "dialogues",
+      "records": 4806,
+      "bytes": 173101,
+      "sha256": "53ac80028dfa278086ff25ed2fe49108a92fc0813373528d74bba2a270e7e753"
+    },
+    {
+      "path": "Extracted-Roles/Sex and the city/SATC_Samantha.txt",
+      "layer": "dialogues",
+      "records": 4067,
+      "bytes": 149174,
+      "sha256": "aa857ee9ba17410a4712106e30c9a13e1f9af603fcfe5003611f7a09596f03ac"
+    },
+    {
+      "path": "Extracted-Roles/Simpsons/Simpsons_Bart_Simpson.txt",
+      "layer": "dialogues",
+      "records": 12995,
+      "bytes": 583986,
+      "sha256": "21b4507e63075519dd0b5004c653c464e4f67daf616ee27603fb5b6a02b7b18e"
+    },
+    {
+      "path": "Extracted-Roles/Simpsons/Simpsons_C_Montgomery_Burns.txt",
+      "layer": "dialogues",
+      "records": 3077,
+      "bytes": 201159,
+      "sha256": "424e8b16c732c57dddd6bb200fe174295f86f6a07d73c2570d2d8e8314895cdd"
+    },
+    {
+      "path": "Extracted-Roles/Simpsons/Simpsons_Chief_Wiggum.txt",
+      "layer": "dialogues",
+      "records": 1790,
+      "bytes": 108207,
+      "sha256": "da33c5bdcca10b5b9920b92396ca5eb05477d7aee74f7a643bcca90ebed9414e"
+    },
+    {
+      "path": "Extracted-Roles/Simpsons/Simpsons_Grampa_Simpson.txt",
+      "layer": "dialogues",
+      "records": 1802,
+      "bytes": 103263,
+      "sha256": "3d1d5c5821e2525fa1189c596c78d081f271fe3508a60722e3f6fa9564fe358f"
+    },
+    {
+      "path": "Extracted-Roles/Simpsons/Simpsons_Homer_Simpson.txt",
+      "layer": "dialogues",
+      "records": 27850,
+      "bytes": 1454834,
+      "sha256": "ac08ff269e54bd6067fd88c74c675a1d267ef7e05b79c723ed4c7d0656941a74"
+    },
+    {
+      "path": "Extracted-Roles/Simpsons/Simpsons_Lisa_Simpson.txt",
+      "layer": "dialogues",
+      "records": 10756,
+      "bytes": 542754,
+      "sha256": "3a24ac1e14bc830ac4cea78966db8d8220092c3f394a3e1ff403b7f851463dfd"
+    },
+    {
+      "path": "Extracted-Roles/Simpsons/Simpsons_Marge_Simpson.txt",
+      "layer": "dialogues",
+      "records": 13172,
+      "bytes": 674197,
+      "sha256": "8f7e9c281a655c336be2d4cad1dd866c16c707de0cf78a4cfa04f911a3747510"
+    },
+    {
+      "path": "Extracted-Roles/Simpsons/Simpsons_Moe_Szyslak.txt",
+      "layer": "dialogues",
+      "records": 2808,
+      "bytes": 175446,
+      "sha256": "6438961712b592a704f8845e916b66ee8eec1ec34d539c2a48d7f053995ffa71"
+    },
+    {
+      "path": "Extracted-Roles/Simpsons/Simpsons_Ned_Flanders.txt",
+      "layer": "dialogues",
+      "records": 2056,
+      "bytes": 126044,
+      "sha256": "e6dcb639e9ed694287db8c7da99e702a86396dbaae07dbd203112e109eb695bd"
+    },
+    {
+      "path": "Extracted-Roles/Simpsons/Simpsons_Seymour_Skinner.txt",
+      "layer": "dialogues",
+      "records": 2385,
+      "bytes": 159116,
+      "sha256": "b2c295ce420597c3cfef88d3a19b0bd2d5ca4a95107008970e3f3a29d6c432c1"
+    },
+    {
+      "path": "Extracted-Roles/South Park/South Park archive_Butters.txt",
+      "layer": "dialogues",
+      "records": 3059,
+      "bytes": 182865,
+      "sha256": "51ffe9d9d2ca71254e419a8982f57dac083e2842d67b69c532a66803a418584d"
+    },
+    {
+      "path": "Extracted-Roles/South Park/South Park archive_Cartman.txt",
+      "layer": "dialogues",
+      "records": 11291,
+      "bytes": 809517,
+      "sha256": "99301d1319d0280084c9a429737917fe4682fb5a318a40cc69f2a2a42eb2152b"
+    },
+    {
+      "path": "Extracted-Roles/South Park/South Park archive_Kyle.txt",
+      "layer": "dialogues",
+      "records": 7887,
+      "bytes": 383303,
+      "sha256": "758594330fcde05b7eae4c2b4ebf9b9827bb7345e8e3128eff06a85b66c1b68d"
+    },
+    {
+      "path": "Extracted-Roles/South Park/South Park archive_Mr_Garrison.txt",
+      "layer": "dialogues",
+      "records": 1220,
+      "bytes": 94938,
+      "sha256": "92a168feac6a2c31114e04e9afecbe38a57faf560bf23f27c34614e2e6c505c5"
+    },
+    {
+      "path": "Extracted-Roles/South Park/South Park archive_Randy.txt",
+      "layer": "dialogues",
+      "records": 3490,
+      "bytes": 251946,
+      "sha256": "d954460acf3d7f469fde85c46496a040b99c1f56165eb4d5ae1b116ac5e9ab38"
+    },
+    {
+      "path": "Extracted-Roles/South Park/South Park archive_Stan.txt",
+      "layer": "dialogues",
+      "records": 8360,
+      "bytes": 401553,
+      "sha256": "8505020a42ea97e78145b861935a0bd3efb8b59edf780a9d5c6ed45c02b36a1e"
+    },
+    {
+      "path": "Extracted-Roles/SpongeBob/SpongeBob_Mr_Krabs.txt",
+      "layer": "dialogues",
+      "records": 4428,
+      "bytes": 302931,
+      "sha256": "c35d72579924a526e7efdfd197e5f16eaced59800811726a86079418c8c06db6"
+    },
+    {
+      "path": "Extracted-Roles/SpongeBob/SpongeBob_Patrick.txt",
+      "layer": "dialogues",
+      "records": 5112,
+      "bytes": 217571,
+      "sha256": "e39c301cfc36587df8e3b2f709fdae588daeb76b9daeff74c02ccf6fa9fcc2d7"
+    },
+    {
+      "path": "Extracted-Roles/SpongeBob/SpongeBob_Plankton.txt",
+      "layer": "dialogues",
+      "records": 1851,
+      "bytes": 128209,
+      "sha256": "48939b130fcf7ef502b6b1833f1210821da23b69263e6ed26d78ef7f575fbf56"
+    },
+    {
+      "path": "Extracted-Roles/SpongeBob/SpongeBob_Sandy.txt",
+      "layer": "dialogues",
+      "records": 1390,
+      "bytes": 89517,
+      "sha256": "31bb10b9994f0919048568cd26ed7a223527caf8a97083a368af7ed85bf9a55e"
+    },
+    {
+      "path": "Extracted-Roles/SpongeBob/SpongeBob_Spongebob.txt",
+      "layer": "dialogues",
+      "records": 12829,
+      "bytes": 765068,
+      "sha256": "1e3268cd85f3d51eea6126616dfbcb6c59156a2f9c584827f87eba446e456d2a"
+    },
+    {
+      "path": "Extracted-Roles/SpongeBob/SpongeBob_Squidward.txt",
+      "layer": "dialogues",
+      "records": 4229,
+      "bytes": 239541,
+      "sha256": "c9c1a94bfb01be58a41941681de5dca5b7a422badca8ea35946ec0267c3bd300"
+    },
+    {
+      "path": "Extracted-Roles/The office/The Office_Andy.txt",
+      "layer": "dialogues",
+      "records": 3917,
+      "bytes": 251515,
+      "sha256": "1783d7416a596a76b38d788a3f94dacdf3c5cba5d82b26fad9f354ff2a5486d5"
+    },
+    {
+      "path": "Extracted-Roles/The office/The Office_Angela.txt",
+      "layer": "dialogues",
+      "records": 1659,
+      "bytes": 78272,
+      "sha256": "295c696fce6ed1d73fb12d26a45485a29f2091b99c0f1f18f058ad19d136ffe2"
+    },
+    {
+      "path": "Extracted-Roles/The office/The Office_Dwight.txt",
+      "layer": "dialogues",
+      "records": 7342,
+      "bytes": 445604,
+      "sha256": "5064ca15e9a4f1e72835a45c01cbbf5a58432dc713275d0516efea492c085001"
+    },
+    {
+      "path": "Extracted-Roles/The office/The Office_Erin.txt",
+      "layer": "dialogues",
+      "records": 1445,
+      "bytes": 68947,
+      "sha256": "c2a42a472bba6eb0ad65a90aab5a9a0b3a8983f9bc07ab7ca67edfc8cd14d9a7"
+    },
+    {
+      "path": "Extracted-Roles/The office/The Office_Jim.txt",
+      "layer": "dialogues",
+      "records": 6630,
+      "bytes": 328393,
+      "sha256": "9d87bb6fb9e30e1ade30aaab9116066bc624e92faff1118e242a5c5695c6b429"
+    },
+    {
+      "path": "Extracted-Roles/The office/The Office_Kevin.txt",
+      "layer": "dialogues",
+      "records": 1663,
+      "bytes": 71704,
+      "sha256": "8186ad8fbe063dc47369dcb379bc3c984fd23b7db0f2e5dea7f25840b1ef5311"
+    },
+    {
+      "path": "Extracted-Roles/The office/The Office_Michael.txt",
+      "layer": "dialogues",
+      "records": 11757,
+      "bytes": 863298,
+      "sha256": "16ae9509ccfddeea7b718bc7ae42ae66022042e3072f0b588cd6cb3d585373d7"
+    },
+    {
+      "path": "Extracted-Roles/The office/The Office_Oscar.txt",
+      "layer": "dialogues",
+      "records": 1455,
+      "bytes": 70291,
+      "sha256": "529bf6db72c40f268a8ca34677891e8db05d7dfc9633becb5c5e27e930869cca"
+    },
+    {
+      "path": "Extracted-Roles/The office/The Office_Pam.txt",
+      "layer": "dialogues",
+      "records": 5240,
+      "bytes": 248609,
+      "sha256": "c2aa1dc6d932632adc0b94c6edcc3806b5444348725f1d9529791394f39c4f7a"
+    },
+    {
+      "path": "Extracted-Roles/The office/The Office_Ryan.txt",
+      "layer": "dialogues",
+      "records": 1315,
+      "bytes": 69521,
+      "sha256": "c153874882f55457648ce4d6d95a683687e56781958216b67e21b9cd6e02ba11"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+      "layer": "pairs",
+      "records": 1628,
+      "bytes": 2621740,
+      "sha256": "4acba0a59938da6880000e0312e170ac39049676bbbcb08cbce6fb6581d8bd08"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Avatar/KATARA.json",
+      "layer": "pairs",
+      "records": 1335,
+      "bytes": 2108368,
+      "sha256": "c749c09eb99e9448c92509bbedce48804f8dd48a23ea26d9e60e17846a1afe57"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Avatar/SOKKA.json",
+      "layer": "pairs",
+      "records": 1547,
+      "bytes": 2457832,
+      "sha256": "2fefb112ee11ab14448383294eb3738dbe51f1c53988932424552f1efa5398ec"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/AMY.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3220595,
+      "sha256": "9d6b12630a4e49507555f0410af4e48a81cb53d386887294dbd61ec2b257f24c"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/BERNADETTE.json",
+      "layer": "pairs",
+      "records": 1972,
+      "bytes": 3059321,
+      "sha256": "1b9f06a4dac25d42ee1860d13d5233f91a09b5d3dc5b83dc33bc4dfacb28a775"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/HOWARD.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3085776,
+      "sha256": "06fd105b0165036218d77bb90dc7256dfe2461cef93e7496c1cf2ac616611064"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/LEONARD.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3111202,
+      "sha256": "0256177e33c96057a60af3f5ee4851cbfd327a8b0bd5c678ab2a6ab37705ae7a"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/PENNY.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3094017,
+      "sha256": "13e574a6b80b2401a254a63dbb699f7188e47f64410d88175e97d94f4b523d4e"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/RAJ.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3239965,
+      "sha256": "e4ec288e8f26de41966685a928f7f7e479973fc1cade20a73d84f874efdb7cb7"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/SHELDON.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 3018969,
+      "sha256": "ea9178767b4c5525acfba17adb51a9a5df6a3fd661356c336a46a92bdba1d234"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 4005823,
+      "sha256": "d1028137face30dde4e168cbb6c9cee8a5f21602a71239f982edd520763ea8c9"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/BOOTH.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 3682193,
+      "sha256": "fc19f0eb3b97035bbd66623542da4c98f77c5eeae69d17089a2292206a5a5bb6"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/BRENNAN.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 3699085,
+      "sha256": "21c940b7c1010ef49ce7c3a0a014b5dfcd23e3cbba10f8f0d2582e40d7ca904c"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 4013148,
+      "sha256": "9ccceb842a7d76dac8d37bdb30e4629e388850114bbd626d089f8c733687e817"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 4026442,
+      "sha256": "cca8c3bb1c5182653f13aec1fdaeb686dcba1468a982d757a3623255bdb4f85e"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+      "layer": "pairs",
+      "records": 1781,
+      "bytes": 3548506,
+      "sha256": "afdaf654648e9f9a2a20bddd886e31cf9d9258c00893f751f393cbca658ec151"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+      "layer": "pairs",
+      "records": 1600,
+      "bytes": 3047872,
+      "sha256": "f2c58974d714149c9d3a7ae898eac81df22edbb65b10ed924e3465c0b3295edc"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/CHANDLER.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3094162,
+      "sha256": "ac517618181323dafdae47177586347b789b1bf5848320f6e9f6a257580e4bcc"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/JOEY.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3058909,
+      "sha256": "be3ad386c9ff70efff968ae3ca3d708bbbb49da3e9a94c20defd64548e03bedb"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/MONICA.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3062196,
+      "sha256": "79052e993c92146e4b730d1ab4816041466db83c4b81efbee3cdf115d7932ad5"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/PHOEBE.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3058530,
+      "sha256": "16081712d1354bf7c2b796d160d12ed1b67deae27abeef4e8b37aef3a676295d"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/RACHEL.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3087888,
+      "sha256": "92a68d814b42b0ef44fb39731fd5b616819e053122e103bcd2f1179abd28548d"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/ROSS.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3073087,
+      "sha256": "ef378e452c8ab5e930ea56384ac1359dbd3ccaf4ee65358ec47702d910fd0713"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Futurama/BENDER.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3386083,
+      "sha256": "7c9b6d212be54f6035b9cd91519f7b6a7c01caa159138e31d1e278041091be8a"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Futurama/FRY.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3360929,
+      "sha256": "381e69865a06622dc704944b6dcd26ab869f3a1030c6e890a11d833104b377a6"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Futurama/LEELA.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3376764,
+      "sha256": "17aa0c3c99e4110faf7debdbf2b7d7871a5e812bcf4b5d87f3c4f1865b0e1641"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Game of Thrones/TYRION_LANNISTER.json",
+      "layer": "pairs",
+      "records": 1643,
+      "bytes": 2948425,
+      "sha256": "8d43593c786df9fa6446a422117644d7c84de3a36468e5f372cded4f690fdec5"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/CAMERON.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 2804971,
+      "sha256": "b0cb1c1219d646372ce835f87985c2772c6bcb588baa83dfcc73ef028e8a646a"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/CHASE.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 2664371,
+      "sha256": "6f636c7b6e080bd32d4cf99390a2b0e3e28a76f61fa3f58b9078221ecb7a6c1f"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/CUDDY.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 2801066,
+      "sha256": "3e600f04d94ef360ad8e3a93a808b5d1e9956278acaf14eac8501e46e05da5ae"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/FOREMAN.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 2683174,
+      "sha256": "ab54e85fd8b5714c2d0753db8dbbdb1c0fec38b02aba6219d2138f439985f152"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/HOUSE.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 2571468,
+      "sha256": "00cdcdb4f93fabfda994efcc028749725ec9fbdf0d20c666002f544063f68a81"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/TAUB.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 2789378,
+      "sha256": "0899b49f865e6354c6bc13e63db757705463a9f9b0456efb47527b6c65ce1c8d"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/THIRTEEN.json",
+      "layer": "pairs",
+      "records": 1754,
+      "bytes": 2499212,
+      "sha256": "133b4213e56ff6e6ebdbcf8ae1b116c6c435e42e522bbced200e6278984845db"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/WILSON.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 2816688,
+      "sha256": "7acbc19ce432ac9e0b3c09b7ce6423cfa1492b3eab36808ed3246e28308381f6"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/How I Met Your Mother/BARNEY.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3270585,
+      "sha256": "0d76b765d229180f62f7792d51153a8874c8f3218ca638859ae62e3de89fdf59"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/How I Met Your Mother/LILY.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3202931,
+      "sha256": "0a558a812fd98e6b6cce2e8d07c90cac75396eb2263ad0c03344cd7fa30fea19"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/How I Met Your Mother/MARSHALL.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3247979,
+      "sha256": "21eeeee39aaa8278deecab92703e73f3df1ec15314cb6bdc0556ecf41e4380ca"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/How I Met Your Mother/ROBIN.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3190178,
+      "sha256": "821c03a5723b111d0e3f446fd4d9209c71278928b7f63f6992778085415617b5"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/How I Met Your Mother/TED.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3238893,
+      "sha256": "f91102f6a03c8ffae6dfcee5e26360480419e3e83f5989b66708e7236bde6b6e"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/APPLEJACK.json",
+      "layer": "pairs",
+      "records": 1980,
+      "bytes": 3151906,
+      "sha256": "407c0def140692e73e01637d0b707b8d965036f2a59f3baef70631d0f859f5bc"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/APPLE_BLOOM.json",
+      "layer": "pairs",
+      "records": 1171,
+      "bytes": 2001046,
+      "sha256": "71b10a23f540586c920e7845403a40aa3a06e6bc838eb8b1b2a5f2cc842012b7"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/FLUTTERSHY.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 3138290,
+      "sha256": "b58e7696592228d7c8b011394a3a78c09de8da17c28b70fb0068cc0e0fa12891"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/PINKIE_PIE.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 2892250,
+      "sha256": "36d8d1d31d4d256024fb346e324d8c93ce554d6d07b9952a007fee977a3d5bf1"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/RAINBOW_DASH.json",
+      "layer": "pairs",
+      "records": 1981,
+      "bytes": 3161060,
+      "sha256": "ab636d96a8a48eb596c911730794a873122df6bd2866b47170d0b68323558f92"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/RARITY.json",
+      "layer": "pairs",
+      "records": 1923,
+      "bytes": 3064183,
+      "sha256": "887a562cf27c8cabcd815ca8fb1ea9da9220077035d091edfe4e685e11d1a84c"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/SPIKE.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 3054662,
+      "sha256": "e4eca09de3b38876297acdf4ba8ddaa2754d528bd8ad1ad7bdd27ada133a7a59"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/TWILIGHT_SPARKLE.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3409264,
+      "sha256": "87d70d47732fd77cb0da5753e609d0464a3afe50ef65ffd3b361e7b3d0e21368"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/ANDY_DWYER.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 3439326,
+      "sha256": "79b589971ccbd64e7b86522780b811890da9452b29bcf8639ce0e91b5ef44d81"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/ANN_PERKINS.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 3476262,
+      "sha256": "0dbd2fbe78ce6af2efda4e9dc5757ccff4ca621804b669361b2ce0644900ff4c"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/APRIL_LUDGATE.json",
+      "layer": "pairs",
+      "records": 1633,
+      "bytes": 3205113,
+      "sha256": "57d70b121717c46808d0ac8cfdbcf81bd40f5d158c4907e2469cb0cf2bfe99ef"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/BEN_WYATT.json",
+      "layer": "pairs",
+      "records": 1910,
+      "bytes": 3355018,
+      "sha256": "02a4446858a045b937b405fd50335ffdf176a98d4176700428b4285e389b7cc0"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/CHRIS_TRAEGER.json",
+      "layer": "pairs",
+      "records": 1224,
+      "bytes": 2442403,
+      "sha256": "2807f4dbadb310e026eaf37f98c3c01437f5f9d2dbba3e2383d0fe84bedbdb9c"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/LESLIE_KNOPE.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3553866,
+      "sha256": "3bbcf9daa410443ff3aa468e802e0e4ce9aff7e99a21351a1bb91121f78f95b8"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/RON_SWANSON.json",
+      "layer": "pairs",
+      "records": 1855,
+      "bytes": 3285658,
+      "sha256": "c40270f2b896b95743dd9c62608e8528c7d85bddf8ee43fe470a6f15c50cc58c"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/TOM_HAVERFORD.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3683949,
+      "sha256": "9375c92e668b95a3b2de66c230c71a0315f1edfaeb0035a75f7639a5a26dfa6e"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Seinfeld/ELAINE.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3190840,
+      "sha256": "af8a683aa18ca26a401c611a6944827350e26d79d85ea9aed39050b2bcdfea2c"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Seinfeld/GEORGE.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3219759,
+      "sha256": "37882e0eb8608d8da63af2f1c4eb18177e7bccfbb240aabf5ca41bdec4fbc521"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Seinfeld/JERRY.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 3037264,
+      "sha256": "265366ed03bbf9d9385714872070c10fecec493e043efbf6a5d90bf9659bd866"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Seinfeld/KRAMER.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 3185216,
+      "sha256": "24ba6b97f149a653d734977c302eb352fe6f04592ace8c5bc15190fa55e055ef"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Sex And The City/CARRIE.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 2933213,
+      "sha256": "4c00cf1bb0bbcdd2e3983488f98d0173b7cd70ffc93a2634c89ab43ce02f958c"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Sex And The City/CHARLOTTE.json",
+      "layer": "pairs",
+      "records": 1804,
+      "bytes": 2658366,
+      "sha256": "65c075b4b4f207d43c41a196523c5913098e344487c3ff68da04638a1b2f83e7"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Sex And The City/MIRANDA.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3039865,
+      "sha256": "888affbda7f1d11595e98834d2def79e3264def2b53060b6ce6d6a44df7d234a"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Sex And The City/SAMANTHA.json",
+      "layer": "pairs",
+      "records": 1910,
+      "bytes": 2803616,
+      "sha256": "dff8a4b6d153704226377c99780f7aa58ba2e72ef74d031fb04b5f3aab05f5ef"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/BART_SIMPSON.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 2627383,
+      "sha256": "de5afd7b1736657d50cdb32a392a126a0cf56c9c7ff53357caa89f01983140d8"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/CHIEF_WIGGUM.json",
+      "layer": "pairs",
+      "records": 1688,
+      "bytes": 2842622,
+      "sha256": "ac62f6b50558c0e94aad0cbc8bafa56c6b4a454a8e6dd8fbf150123f127d5264"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/C_MONTGOMERY_BURNS.json",
+      "layer": "pairs",
+      "records": 1809,
+      "bytes": 2604032,
+      "sha256": "546349af9c902324bc20f056c7fee77e303989a00070306a902bb416fea755d8"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/GRAMPA_SIMPSON.json",
+      "layer": "pairs",
+      "records": 1618,
+      "bytes": 2734554,
+      "sha256": "033fd2d8982d3bb48db657457d967c3b57e3d2c98b2f6e7543f420dda2033ef8"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/HOMER_SIMPSON.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 2651100,
+      "sha256": "b9badc6e364a17d4add8d77f2b3d76e578564bb140cff7a08ad1a2e57ed08614"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/LISA_SIMPSON.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 2786893,
+      "sha256": "8316b48b9a5e97c0cb65e17d1668f41489c3273fe5a37ef6a1d3b5890689dea8"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/MARGE_SIMPSON.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 2639551,
+      "sha256": "e51d9575872bc611aa0a9e87999c15680da569b9972ca8e75fa6e4e0dff23ae6"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/MOE_SZYSLAK.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 2530869,
+      "sha256": "a89b66f56444c7ae667cac58f3cae8e288e3c9a2736c8f9cc9d557026eae28ac"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/NED_FLANDERS.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 2858905,
+      "sha256": "ece8034b45e0cfdc8bfb74134a2c7cf7e5cc73ebca393dfa39e73899d1c0dcfb"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/SEYMOUR_SKINNER.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 2649849,
+      "sha256": "3b2d60fe43d0fa60054108eba018ba46362ccbec072f51043a0c7817f8530b93"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/BUTTERS.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 2884790,
+      "sha256": "c920ed52530b540e2caa2afab698d0363200bbecb018f4b97a9a3556649ad00a"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/CARTMAN.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 2625634,
+      "sha256": "dea542c8936840326f9e02c0bbeee880e415cd743f1facf67edfe2d10c3cc73e"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/KYLE.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 2706579,
+      "sha256": "11fa95f04fe38ae3bf744f0f0186e5efae80c84e0376b614cf4e9338f2a8e8c3"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/MR_GARRISON.json",
+      "layer": "pairs",
+      "records": 1298,
+      "bytes": 1942476,
+      "sha256": "3d43a3997718016a6fd52323f1ab6f725273a23924e09aa6c0be1b36ffe34f41"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/RANDY.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 2883152,
+      "sha256": "f0e21ea5e796a0cf157c9d38f69335a2765093e628e7ebf9de8c818af36ad6c1"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/STAN.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 2713326,
+      "sha256": "5981ffd0b032410538872b863fa02fe3299c0dd8454f645d7e74327fdab3b449"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/MR_KRABS.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3293912,
+      "sha256": "d7de5a6b939060cff8a69425a06ab258a6b71c433c6c4ea5f3f2f3604ab03ca7"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/PATRICK.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3217800,
+      "sha256": "c4f942d23b49da281d9e0fe0d72479e6b229247bb42345a81fd71cf508ae1e32"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/PLANKTON.json",
+      "layer": "pairs",
+      "records": 1583,
+      "bytes": 2677821,
+      "sha256": "26198a3819ad3367c9bd0db7c786ac3d88de70eb6be9539096c88069ecefebce"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/SANDY.json",
+      "layer": "pairs",
+      "records": 1179,
+      "bytes": 1956603,
+      "sha256": "42b2b668031241649f5ea86203389eed387585fc050833651a5444f7b0ac777c"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/SPONGEBOB.json",
+      "layer": "pairs",
+      "records": 1800,
+      "bytes": 3062530,
+      "sha256": "9c582f11328f2f1dfe88835e7bd06805de21ac59b65b8064a0d122295a587495"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/SQUIDWARD.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 3281809,
+      "sha256": "6e94c6c959b999c40aedd725f5e1ffca553bc9bc6a777514087c09f7a5397c06"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/ANDY.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 2850229,
+      "sha256": "3927b5828a534c9b76d62eda4998a02abb0749a88ebe26d4ff1d00aa19a47f6e"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/ANGELA.json",
+      "layer": "pairs",
+      "records": 1283,
+      "bytes": 1867085,
+      "sha256": "e5e3c8313a86a8b5356f595bb59a59ff4084c8f3d803cad31ae089a2cb60d468"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/DWIGHT.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 2743745,
+      "sha256": "f29d2ff052616b60fd43cabe4e3056894e3990e8d371482e56958d4e6e0cd9e8"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/ERIN.json",
+      "layer": "pairs",
+      "records": 1102,
+      "bytes": 1613474,
+      "sha256": "5708a8d1107b2357c65b56d3052388912de4834d9b2499aa2e11c3728540579d"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/JIM.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 2827098,
+      "sha256": "0256d7550da151fb2929ce395a0938835503d0c5f0ba9b8cf40822789c4084c4"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/KEVIN.json",
+      "layer": "pairs",
+      "records": 1243,
+      "bytes": 1817009,
+      "sha256": "bb028a8713b06fa2a9ec8dda561318cada925ea3b702313ae90095574faec92e"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/MICHAEL.json",
+      "layer": "pairs",
+      "records": 1900,
+      "bytes": 2770260,
+      "sha256": "c8d9118812a3d186be7f36ca873355ff5b56811585b2a2ed8f28ed681c7cdb2d"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/OSCAR.json",
+      "layer": "pairs",
+      "records": 1163,
+      "bytes": 1692438,
+      "sha256": "040d6c6e6c46ee5ad6c5c7648a76123be6708e5a3181b59f1f412090a5110977"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/PAM.json",
+      "layer": "pairs",
+      "records": 2000,
+      "bytes": 2821242,
+      "sha256": "4e4ea5f4162f62bb6974d4251ae4c46720b08c401cc1698bee45598fc382b224"
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/RYAN.json",
+      "layer": "pairs",
+      "records": 1083,
+      "bytes": 1564762,
+      "sha256": "6f001be3307549161f3c75dca3238af3f1ec609c9d92eebf2648d037c8a0038e"
+    },
+    {
+      "path": "profiles/Avatar_Aang.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1880,
+      "sha256": "debcc15c4be702e3f6f83e30e71437b575519a45e8b82d61e2cdf46ba60b85b8"
+    },
+    {
+      "path": "profiles/Avatar_Katara.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1682,
+      "sha256": "eef5ef33391652db3d4df5dd3e13c287debf0821432b802c294d67c5f66a96a3"
+    },
+    {
+      "path": "profiles/Avatar_Sokka.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1879,
+      "sha256": "9c583d92f642454c355b4bb73c88d0450af39ad34bf298dfc7afd566a3a7a9e1"
+    },
+    {
+      "path": "profiles/Big Bang Theory_Amy.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3242,
+      "sha256": "6ea3ca8534586542f851ebe14aeccc77498e8cc28234a1e1d507024cfd3aa0a5"
+    },
+    {
+      "path": "profiles/Big Bang Theory_Bernadette.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1487,
+      "sha256": "de3845fef9048c162bde9fab490f3fb8ac4888d7aa711a867abe416d128607c1"
+    },
+    {
+      "path": "profiles/Big Bang Theory_Howard.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2631,
+      "sha256": "936b98afedc6591139f10419f17b0dd8c10913e2ffc833f87a41ff789037b5f3"
+    },
+    {
+      "path": "profiles/Big Bang Theory_Leonard.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2539,
+      "sha256": "47c0170d22bc11d79548285f44fb7c13b2982766ba0da6786c45a18fef5ea465"
+    },
+    {
+      "path": "profiles/Big Bang Theory_Penny.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3347,
+      "sha256": "c514a276d6dfaf689147456a236188a052a2e40350a3a6d6bc3cf57aa27ca06b"
+    },
+    {
+      "path": "profiles/Big Bang Theory_Rajesh.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3221,
+      "sha256": "c9e6d8abc51081d7921905c1768eb3ab3f14dac3d17b53e352d5ee8d254e21fe"
+    },
+    {
+      "path": "profiles/Big Bang Theory_Sheldon.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2731,
+      "sha256": "50fe6d4fa7616d9a005e0907ddce8beb08b4590c8295e8fcecffbcc60896742b"
+    },
+    {
+      "path": "profiles/Bones_Angela.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2586,
+      "sha256": "6784d4900d3e57df27d823cadcf513c8ff32bc4969d9ae78e67cdf8ec93c3d41"
+    },
+    {
+      "path": "profiles/Bones_Brennan.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1663,
+      "sha256": "89e670b5990f64ced579ff3ca0d1978d0fb1b946dda07c9e9626eb3e79da1b33"
+    },
+    {
+      "path": "profiles/Bones_Cam.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1762,
+      "sha256": "37ffceccc00cfe3a42f6e6dc44a590cb5192fa3b6c91019c851075da5708ea0e"
+    },
+    {
+      "path": "profiles/Bones_Hodgins.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2343,
+      "sha256": "f46a3ee5b53311ccaeab19ea82dffe8e2f8e486d133efcccb43847f90b01e07f"
+    },
+    {
+      "path": "profiles/Bones_Jack.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1982,
+      "sha256": "ca6cfa7ff1a2bb496481d2461df5a91bbe8775e495283289c01e701e9477b188"
+    },
+    {
+      "path": "profiles/Bones_Seeley.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3505,
+      "sha256": "d6a998d9befb0a9a11fcf31ca3d0fd81d6ecc0f2d0570ca2a432a9440cad74ec"
+    },
+    {
+      "path": "profiles/Bones_Sweets.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2021,
+      "sha256": "a293f02d9499222b5ed43a48e8ff3487fd0fdb22f60c634e6794e254258a554f"
+    },
+    {
+      "path": "profiles/Bones_Zack.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2928,
+      "sha256": "1a36bc993a82e4c282ba7e16a1b68db529149bc8569c8d91eb86bd21a7a393c0"
+    },
+    {
+      "path": "profiles/Friends_CHANDLER.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2353,
+      "sha256": "4dc7667e1265abaa2bed422439a6b00ab5a4e32cc2149c9aeb7966d6f093a190"
+    },
+    {
+      "path": "profiles/Friends_JOEY.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2071,
+      "sha256": "c4bc4bef2f8718413ba4dddf9dd1538755d137582be0ccd1386fb4d92ce54f8b"
+    },
+    {
+      "path": "profiles/Friends_MONICA.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2031,
+      "sha256": "412dd21e3115741e1bcf778b6300d7099d79376dffeb954cc9d7a8cc7a3de3ab"
+    },
+    {
+      "path": "profiles/Friends_PHOEBE.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2003,
+      "sha256": "9076abbe6db8c5ab8862e9b4a51657116d8bf0a6cd9105abf44a7d3a79d6c9bc"
+    },
+    {
+      "path": "profiles/Friends_RACHEL.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2636,
+      "sha256": "ed09aef67b690f77c395f724974189563f9ecf8219d6e720afe5250936decb79"
+    },
+    {
+      "path": "profiles/Friends_ROSS.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3032,
+      "sha256": "bbd9d7ec53d27baff5b2990e1eafdefe28ab9aa08674471fe86467e5b8060e06"
+    },
+    {
+      "path": "profiles/Futurama_Bender.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1471,
+      "sha256": "4bd4c5177e96b063e8457dc731da791f1d125c05dad76d33a7ebdf75ddd84f7a"
+    },
+    {
+      "path": "profiles/Futurama_Fry.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2540,
+      "sha256": "c5be56fc453c1e35c60a802c646c80d55df02d5bfcf1784673c216de16b26966"
+    },
+    {
+      "path": "profiles/Futurama_Leela.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2114,
+      "sha256": "8a0fa3b9502cbf1473a250df3e11eda1a8e30c69efca27cd9688b369d64d793e"
+    },
+    {
+      "path": "profiles/Game of Thrones_Tyrion.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2146,
+      "sha256": "bf9caf8edfe93849f92202d7f9f5c1e8fb795806e2a1b50e281d4f2d631f24b8"
+    },
+    {
+      "path": "profiles/House_Allison.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3380,
+      "sha256": "18895d443531656ee17701d9e36c7865f0bb47763bf8580a6d60b0c5df3ba81a"
+    },
+    {
+      "path": "profiles/House_Chris.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3559,
+      "sha256": "d08b3f5a7ded7fdc962e4a16da1b3c31ab9369eb88c9e197acda47268dfc9e57"
+    },
+    {
+      "path": "profiles/House_Eric.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2663,
+      "sha256": "4a3d039373971497a3fefc980366a0962e2beb600e68f18e52d9e72900246da8"
+    },
+    {
+      "path": "profiles/House_Gregory.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2597,
+      "sha256": "2be40a4f5dbf4a5a3f82a1e4880fe8f643628bcb7384c50907220c37bd9369c5"
+    },
+    {
+      "path": "profiles/House_James.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1958,
+      "sha256": "2b0ea6b154a8ebd4d16fda7fee4f487c0f5c2f615bf12139038c29c2609bb98e"
+    },
+    {
+      "path": "profiles/House_Lisa.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2540,
+      "sha256": "3694842b86fdeb659737630840dd13135401d62d4fda48f51a7d96ae6ce17731"
+    },
+    {
+      "path": "profiles/House_Remy.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 4016,
+      "sha256": "cda22601baf35ff750c45ae454721052f7b99c96f0066b8a3f098ab8b63e43d1"
+    },
+    {
+      "path": "profiles/House_Robert.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1785,
+      "sha256": "3ca038a0be1ff8911ac9db4deffacb46346e00d440e68cb4848eae20623f225c"
+    },
+    {
+      "path": "profiles/How I Met Your Mother_Barney.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2657,
+      "sha256": "cff51b2be1e1df9e66f0d291d238f146bcdb0c93213252a9f6b00d7e2f4ad5f0"
+    },
+    {
+      "path": "profiles/How I Met Your Mother_Lily.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2778,
+      "sha256": "ce12829f415d95b0c1d94ba8cf0676cefc822ed4b5bb8298a691f69f08d0a570"
+    },
+    {
+      "path": "profiles/How I Met Your Mother_Marshall.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2961,
+      "sha256": "78429e23e35ba5e01eed3e3e3bb57355f75009104e147a078f6786fb82aca508"
+    },
+    {
+      "path": "profiles/How I Met Your Mother_Robin.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2553,
+      "sha256": "53e7bb94c380425e04bd0064683e35de484f34c6b05765c5404294eba3f0d7f1"
+    },
+    {
+      "path": "profiles/How I Met Your Mother_Ted.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2995,
+      "sha256": "85a8bf9f67fc991b4f6ccee787f2146c1e47b559ad664860e9b8629e4b510b00"
+    },
+    {
+      "path": "profiles/My Little Pony_Apple.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2052,
+      "sha256": "2728822a1ced5e217b39d9d90fbc7a79b26d8ad455bff36a99323a8c8f878719"
+    },
+    {
+      "path": "profiles/My Little Pony_Applejack.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2149,
+      "sha256": "987a2b03a261a50fe525812a1685b8df8a20a6d9478c4e2dd0f854b9cb318d10"
+    },
+    {
+      "path": "profiles/My Little Pony_Fluttershy.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2721,
+      "sha256": "af6b7666f016ea66c32915d0c534772409b1b4e3f4eb8b2426c159226eddc142"
+    },
+    {
+      "path": "profiles/My Little Pony_Pinkie.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2370,
+      "sha256": "1322db649d1bc57b6bf86f52badd141e1be346a44994710c80e667a46849229a"
+    },
+    {
+      "path": "profiles/My Little Pony_Rainbow.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2169,
+      "sha256": "7dc19499863df64f15646f5808a679a5692185a972df6f40dbeee78ee7d77695"
+    },
+    {
+      "path": "profiles/My Little Pony_Rarity.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2667,
+      "sha256": "0ccc52790f8e9401889e96ed101e6122da831e3dbe1e06704f8ad3825176eda5"
+    },
+    {
+      "path": "profiles/My Little Pony_Spike.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2638,
+      "sha256": "23331df9f94deba4fd2a2ae02964c9d65b9c930fef83e933380938b3964b294d"
+    },
+    {
+      "path": "profiles/My Little Pony_Twilight.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3074,
+      "sha256": "4ccaa9cb0819b77cbe5aa38b90dcc37490a127c94ccb25d775e2ac13925ec39f"
+    },
+    {
+      "path": "profiles/Park and Recreation_Andy.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2880,
+      "sha256": "f48ae1d87cf669edb1b4ad5c7d58afd7ab7c3a9fa2a18bc083aef5b23dc53e0b"
+    },
+    {
+      "path": "profiles/Park and Recreation_Ann.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3299,
+      "sha256": "84423400e2f7f249f2b5bff71a4843a122ad9b76287781ade1e552ba5dec9a25"
+    },
+    {
+      "path": "profiles/Park and Recreation_April.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3568,
+      "sha256": "9f35994d139fce5327a6f1907ba13b4bd07c7c02f036f7c750a87d70ee08f63a"
+    },
+    {
+      "path": "profiles/Park and Recreation_Ben.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2748,
+      "sha256": "769284a124e992c704537bf529b58b54bdc3bc71a434a8c3ba7296468cf3e4ad"
+    },
+    {
+      "path": "profiles/Park and Recreation_Chris.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3772,
+      "sha256": "6f632dbbe62bba6d0c1351a78b388b3c8892da32eed81bc46cb74f8e053b75d8"
+    },
+    {
+      "path": "profiles/Park and Recreation_Leslie.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2739,
+      "sha256": "5b09cabc1cdcf3ae4b4ee9b429b61b452779272d7c02918df0c73b1919895f9e"
+    },
+    {
+      "path": "profiles/Park and Recreation_Ron.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2750,
+      "sha256": "c141a886c229ee6df882deb9fc8d7967cbd05bf24310815b28afb423a69bad6a"
+    },
+    {
+      "path": "profiles/Park and Recreation_Tom.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3146,
+      "sha256": "99c8979098fea1c6333ac6b70f23d98c6fee2387a67e259f396121120ed55e27"
+    },
+    {
+      "path": "profiles/Seinfeld_Elaine.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2368,
+      "sha256": "3748dbeb7b8903ac325d94408020ab6e68623f1dffb63b3223edf5cbacb5a9fd"
+    },
+    {
+      "path": "profiles/Seinfeld_George.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2131,
+      "sha256": "1f940294c1f5a0bd1ef8d5b779253a30382db66370f19bfb9a06b7f93ff3a888"
+    },
+    {
+      "path": "profiles/Seinfeld_Jerry.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2179,
+      "sha256": "9527bda3c4f207a04e89b3478ee9ed6b6551c111380d32ab32bdcfa1d3fc3282"
+    },
+    {
+      "path": "profiles/Seinfeld_Kramer.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2414,
+      "sha256": "135fb5751b301ddf563f1ae25b58b03579f6e01060c7ff6fcbb20bd361e601d9"
+    },
+    {
+      "path": "profiles/Sex And The City_Carrie.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2233,
+      "sha256": "abfdd3618eb18ea20033bec2ed6143ec1dc72b71d1f6b24a4d4537c30972c2af"
+    },
+    {
+      "path": "profiles/Sex And The City_Charlotte.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2137,
+      "sha256": "75cb91300c2502d8dceef7773ca1af6eb59a9c46ba6d62fb82eb815ce755922b"
+    },
+    {
+      "path": "profiles/Sex And The City_Miranda.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2344,
+      "sha256": "50aacf2d2fcbbfbba316acd4086a7a1b30290b0086398d5e7dad12dd0aa4eaa3"
+    },
+    {
+      "path": "profiles/Sex And The City_Samantha.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1113,
+      "sha256": "76c4a0b71d4608a210d5954111e4c19e3077366fa644f6b6b7eaf834c79f1507"
+    },
+    {
+      "path": "profiles/Simpsons_Bart.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2005,
+      "sha256": "71e0fc99d9c16987fd23336a6d3bab7f0376cd0a34bd1178ede5d89e206629cb"
+    },
+    {
+      "path": "profiles/Simpsons_Charles.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2352,
+      "sha256": "2d262b2db1a39f933190a67266eadd8a2aeee46b39c68d9fabf867ee87f5ed96"
+    },
+    {
+      "path": "profiles/Simpsons_Chief.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1828,
+      "sha256": "1310ccf47e5da9fdfd5023356f25de25b7fce35f2c81e3c87f1151137d4d8795"
+    },
+    {
+      "path": "profiles/Simpsons_Grampa.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3008,
+      "sha256": "71ce948d693423ef7c771bda259f0ea4eb8d7ecf7fc2ef4e5059104c9f7c7cb8"
+    },
+    {
+      "path": "profiles/Simpsons_Homer.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2743,
+      "sha256": "a6a1ae9c610fd286ab21bb24c90198f4429a45bed7001c0b5ad1c81986251472"
+    },
+    {
+      "path": "profiles/Simpsons_Lisa.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2435,
+      "sha256": "8e03da67e146426cb47cc890a6df9e88262898c753197082c3f4452f8e3b8c3c"
+    },
+    {
+      "path": "profiles/Simpsons_Marge.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2773,
+      "sha256": "295e670c2c2dd6368af88e0e5dd965e1f951f23a3986f78f8a066cf7a44b81ad"
+    },
+    {
+      "path": "profiles/Simpsons_Moe.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2709,
+      "sha256": "af93b9b5cfdf64f354ed372ae641b4e95f4f275edf1d20681d523e90d07663dd"
+    },
+    {
+      "path": "profiles/Simpsons_Ned.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3112,
+      "sha256": "a130586760f86db803c91e91365d2e848d925081fb1f6228be4110136c125500"
+    },
+    {
+      "path": "profiles/Simpsons_Seymour.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3306,
+      "sha256": "0d5240db840fcd6cbdbe916058b2b70ec0c30049cbc77739e108a8a12ec8b6ee"
+    },
+    {
+      "path": "profiles/South Park_Eric.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3293,
+      "sha256": "fb31f73a7f730e7894d902eb23b9d531e445d2c0d11134a600cbaeda4f2e2a57"
+    },
+    {
+      "path": "profiles/South Park_Kyle.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3378,
+      "sha256": "2242178d34fd8a822b80155757dce4d64af5a6ea4b7c6398dacee025b8ff22e1"
+    },
+    {
+      "path": "profiles/South Park_Leopold.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2725,
+      "sha256": "cf332142487e443a985607f0e766317d1f48ebc73bf00ffa908d3828b6ac927b"
+    },
+    {
+      "path": "profiles/South Park_Mr.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1671,
+      "sha256": "939fbb1fc0127977796f6dc0a27c8d1c25066f144aed50b9e90f11063cb5fb8a"
+    },
+    {
+      "path": "profiles/South Park_Randy.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1813,
+      "sha256": "eacd7eed475b332e40c349107f5fbd1f3de478d4554577863e43dce20fb47b75"
+    },
+    {
+      "path": "profiles/South Park_Stanley.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2959,
+      "sha256": "e55fe1fa5921afa4f603175eae8df343d6c676086643f101c15ec254d3dadd22"
+    },
+    {
+      "path": "profiles/SpongeBob SquarePants_Eugene.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2754,
+      "sha256": "203b197bdafaf58c1b99e9ab007390ca41f49bba6ba8209d85dff39ff4a13139"
+    },
+    {
+      "path": "profiles/SpongeBob SquarePants_Patrick.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1486,
+      "sha256": "7fe1e480c4e16ca3442bc70d1ee88200a101db081aa9b7c410cfb33cdca9c212"
+    },
+    {
+      "path": "profiles/SpongeBob SquarePants_Sandy.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1598,
+      "sha256": "5f7363e4d09518aba03577c31268b10c7812130ebac256dd49f17cd712f2632a"
+    },
+    {
+      "path": "profiles/SpongeBob SquarePants_Sheldon.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1954,
+      "sha256": "76c5452b4967ad476c573fb85d60069f621f796cd784374410830abc309e3f05"
+    },
+    {
+      "path": "profiles/SpongeBob SquarePants_Spongebob.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1772,
+      "sha256": "fcdd7ae4f908f58861d117ac2cefb3b165fe871027cc8934b1cfd074a243f0e6"
+    },
+    {
+      "path": "profiles/SpongeBob SquarePants_Squidward.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2457,
+      "sha256": "0d1846a6d8766e498eab7d880bd25c7326ea57db97aca723b8ab6a9cd8685905"
+    },
+    {
+      "path": "profiles/The Office_Andy.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3123,
+      "sha256": "602518b1a9a34265cd144e3f6893ea33f83970fbd4aa5d720d585684a24b0212"
+    },
+    {
+      "path": "profiles/The Office_Angela.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2368,
+      "sha256": "1b53b640175c09aa3c2669b088a2325673e70ef378e6957b2b38409df0ca9b54"
+    },
+    {
+      "path": "profiles/The Office_Dwight.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2613,
+      "sha256": "3c3028efdff2b81cbbfdbbcf0229c2ae484af240335c3d76cda4c89522cfa26a"
+    },
+    {
+      "path": "profiles/The Office_Erin.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2756,
+      "sha256": "c015ad6ac20ab991200b29c60e6bec871da4b535bde09f7a2581bc9746ae7256"
+    },
+    {
+      "path": "profiles/The Office_Jim.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3036,
+      "sha256": "ae41f8a7f2028daefef2b467a6a20741ec4705994eaa5e5d9a778a19350257c9"
+    },
+    {
+      "path": "profiles/The Office_Kevin.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2515,
+      "sha256": "b9aa777b2d4f948a499745102d0bd0c1ffb6a1c7b4bfcc10d269c7d1f6e8223a"
+    },
+    {
+      "path": "profiles/The Office_Michael.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 3600,
+      "sha256": "ccc037192c21c7da299590d926bd366154b5ac71a8b25e5df50dbb9f3ef84220"
+    },
+    {
+      "path": "profiles/The Office_Oscar.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2600,
+      "sha256": "e399f76b075ec57d85318f29f978bd019b95287eeda5c9838e8c3e792b1fba72"
+    },
+    {
+      "path": "profiles/The Office_Pam.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 2424,
+      "sha256": "7dafdf55b41c2256b0ccb0218f8dde0dfaed0cb37c1de7c2edd153f4a7ed699c"
+    },
+    {
+      "path": "profiles/The Office_Ryan.json",
+      "layer": "profiles",
+      "records": 1,
+      "bytes": 1479,
+      "sha256": "2af432912ca836dd8114be987a1c2d44959f8936c17fe68aff3019b728bd574e"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Avatar Aang.json",
+      "layer": "vocabulary",
+      "records": 932,
+      "bytes": 13990,
+      "sha256": "4d860b15695e56d6cef0621b0e25cf08588d139860620b59b13920f827058256"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Avatar Katara.json",
+      "layer": "vocabulary",
+      "records": 765,
+      "bytes": 11421,
+      "sha256": "8ef06cd149f430b072a45f1a50e41ec86470ed2663616dd8b59324c48997b7dc"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Avatar Sokka.json",
+      "layer": "vocabulary",
+      "records": 1043,
+      "bytes": 15170,
+      "sha256": "fb6fe3062b854c511f8b285029ca3c829f8ae089809d63d7ba3ff7c9ce4be78a"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Big Bang Theory Amy.json",
+      "layer": "vocabulary",
+      "records": 1678,
+      "bytes": 25598,
+      "sha256": "0eca4bacd6cc5c4bd7e27271d319f9a39eb61d746b649df3c5192f15d6b52399"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Big Bang Theory Bernadette.json",
+      "layer": "vocabulary",
+      "records": 1153,
+      "bytes": 17388,
+      "sha256": "722e4360a15c000702d9d780a5edfc3d7f261b5847e0ad28ff8b97b624e785ea"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Big Bang Theory Howard.json",
+      "layer": "vocabulary",
+      "records": 1977,
+      "bytes": 29857,
+      "sha256": "baad8fefd7ade17f31ca9763121a5ca011e1f11c948d85214d388c10add49793"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Big Bang Theory Leonard.json",
+      "layer": "vocabulary",
+      "records": 2096,
+      "bytes": 33092,
+      "sha256": "f6ac5467fff2d9c3cfec8b53ef08948ecc504b68431a7b90bf11dcefda3ff367"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Big Bang Theory Penny.json",
+      "layer": "vocabulary",
+      "records": 1606,
+      "bytes": 25327,
+      "sha256": "a246d8429f345f74e65a9ef812d4676fa3f84d71c97fcc445c95ccd351b5db3b"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Big Bang Theory Raj.json",
+      "layer": "vocabulary",
+      "records": 1898,
+      "bytes": 28491,
+      "sha256": "ec7931133175638bf459325de31d87205e8e23904348606041dcf29c0d0e86e3"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Big Bang Theory Sheldon.json",
+      "layer": "vocabulary",
+      "records": 4559,
+      "bytes": 67940,
+      "sha256": "d14b4e61b5810a117ccc1d9be279514794cd89aac323bfafc8c0d5a555154a8c"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Bones Angela.json",
+      "layer": "vocabulary",
+      "records": 1818,
+      "bytes": 26827,
+      "sha256": "e2f89692842803594135db459282110204a203c1fcdac80921f962292aae3a66"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Bones Booth.json",
+      "layer": "vocabulary",
+      "records": 3413,
+      "bytes": 50063,
+      "sha256": "adea5d9994e9603be0ec9088847609b28d8bbfc51872c6fda4d04fba63016199"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Bones Brennan.json",
+      "layer": "vocabulary",
+      "records": 4178,
+      "bytes": 61882,
+      "sha256": "5c47ae043ff2c880587edd6710ba199a9cbd7bbdb507be23d15d2117297825c1"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Bones Cam.json",
+      "layer": "vocabulary",
+      "records": 2136,
+      "bytes": 32224,
+      "sha256": "32c276008dbcf89ae59b493b202f08dc9e49c881f731776269ef053c8493c221"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Bones Hodgins.json",
+      "layer": "vocabulary",
+      "records": 2878,
+      "bytes": 43088,
+      "sha256": "4b4b0c5edc1221b2fd968bc379bc12533dce4e7e4482554625e86da9158aa7d5"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Bones Sweets.json",
+      "layer": "vocabulary",
+      "records": 1473,
+      "bytes": 22011,
+      "sha256": "c0853f2214c89782d5ec6a39afbc5bf6e188131ead2d04c456dc9a4ef5ba0188"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Bones Zack.json",
+      "layer": "vocabulary",
+      "records": 1510,
+      "bytes": 22337,
+      "sha256": "3205cfabdf2486cce0c22301e57e40a0589274124d0100c1199ba05d0f6382ac"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Friends CHANDLER.json",
+      "layer": "vocabulary",
+      "records": 1809,
+      "bytes": 28805,
+      "sha256": "2f0c40cf3b6d59ce5d3787c7dcc0df702871f68ace4e443d03fdce73e39af278"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Friends JOEY.json",
+      "layer": "vocabulary",
+      "records": 1818,
+      "bytes": 28702,
+      "sha256": "f1b4a3d6874d749cccb8edb050bf71f7ac3d8fa7546f77afbf293e6aec86552e"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Friends MONICA.json",
+      "layer": "vocabulary",
+      "records": 1645,
+      "bytes": 26547,
+      "sha256": "506e65391a0a891777e994586ed0ccd02253bffcf07a8e4f2485fd604d7a7c81"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Friends PHOEBE.json",
+      "layer": "vocabulary",
+      "records": 1855,
+      "bytes": 28773,
+      "sha256": "8c2cefbb0a76250ece0adc0cecd2062c8abed0aea5d8193e45506f1c0178fff1"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Friends RACHEL.json",
+      "layer": "vocabulary",
+      "records": 1826,
+      "bytes": 28773,
+      "sha256": "55e4ca3f6f3463f1f85a4022fcc5cb56c4d25ced5ae600639cfa076d6eb65ff2"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Friends ROSS.json",
+      "layer": "vocabulary",
+      "records": 1961,
+      "bytes": 30677,
+      "sha256": "b9c69706fa8049eeccb435014489c5d0f3a57cc0167ad4416eaa82d8ff58ff79"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Futurama BENDER.json",
+      "layer": "vocabulary",
+      "records": 1958,
+      "bytes": 28206,
+      "sha256": "28602cbd3bf74684e55c760ede511cd41791017b1626e7fa161511712921e14c"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Futurama FRY.json",
+      "layer": "vocabulary",
+      "records": 1822,
+      "bytes": 26314,
+      "sha256": "429a958fef0a5730431d1cae730e7d3975729b16405bfd2ba0a1500e55641c08"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Futurama LEELA.json",
+      "layer": "vocabulary",
+      "records": 1662,
+      "bytes": 24056,
+      "sha256": "ac8d055bb0281958a768356f3cea97ae69aaaa618d535b250ecb5c5f72624214"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/GoT Tyrion Lannister.json",
+      "layer": "vocabulary",
+      "records": 1374,
+      "bytes": 20874,
+      "sha256": "ae6c9baac9baa552eebc69899edcf2e6a43728ec3bd5cb8dca0737fedd0cbb33"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/HIMYM Barney.json",
+      "layer": "vocabulary",
+      "records": 1980,
+      "bytes": 30686,
+      "sha256": "6afeb35c606ed9c4153bdbfb26907c5286a47abd6156fd6e825f9b0ded2c275f"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/HIMYM Lily.json",
+      "layer": "vocabulary",
+      "records": 1419,
+      "bytes": 22219,
+      "sha256": "3630cf3d38e5ff7548f74aa1af4b5ddfe60f44efaed7dd09b0a7205c61790c4f"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/HIMYM Marshall.json",
+      "layer": "vocabulary",
+      "records": 1628,
+      "bytes": 25479,
+      "sha256": "c6c5d27cf9b2d8a696f8946bc721b9a9bed066d6d29fe7c7ec395c5d2f1b00d0"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/HIMYM Robin.json",
+      "layer": "vocabulary",
+      "records": 1472,
+      "bytes": 22481,
+      "sha256": "5a0836d7ec98de9bba3003b6c1d018bb19355826650f36be6caf6e011364f4ab"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/HIMYM Ted.json",
+      "layer": "vocabulary",
+      "records": 1709,
+      "bytes": 27696,
+      "sha256": "fec0f5a353e87c88d4c3ea46207feba4325390fd30b8e7186f97d9facefe1352"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/House Cameron.json",
+      "layer": "vocabulary",
+      "records": 1778,
+      "bytes": 27133,
+      "sha256": "66d34298414b4d241d4cfa21d94d54e9aa41150e59cd509f4efef152d93fe292"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/House Chase.json",
+      "layer": "vocabulary",
+      "records": 2374,
+      "bytes": 36743,
+      "sha256": "22f43e08b1d7ea3d3b213cf440f69a53a5e15f6c6fc4938e4d6dcc30f1ccc8e7"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/House Cuddy.json",
+      "layer": "vocabulary",
+      "records": 1629,
+      "bytes": 25214,
+      "sha256": "69e433ef1503039ff14ab3ddf5087ae6df782d4c4abd9f942c8b50d2307ef9ff"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/House Foreman.json",
+      "layer": "vocabulary",
+      "records": 2641,
+      "bytes": 41373,
+      "sha256": "dcd10373513117432d2ddcd31512d13368c7ab9c70ca149549e73ffee53dea3b"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/House House.json",
+      "layer": "vocabulary",
+      "records": 5639,
+      "bytes": 82084,
+      "sha256": "3d22473747bb307e164c61f4d104e9f372721b660dcf4b0d27b2281ba52c4d8c"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/House Taub.json",
+      "layer": "vocabulary",
+      "records": 2086,
+      "bytes": 31747,
+      "sha256": "b4ec4b01626264c660114697def01759e0c9c18cc88bbfdabc7fb131b42eec9f"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/House Thirteen.json",
+      "layer": "vocabulary",
+      "records": 1511,
+      "bytes": 22860,
+      "sha256": "17b9a42becbbce5af44932d9b8f85b974af736ac792fc2195ef706c4d13be486"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/House Wilson.json",
+      "layer": "vocabulary",
+      "records": 1905,
+      "bytes": 29276,
+      "sha256": "fcd83a5957daf8b0bd9722b85b70a840b38add824fe4ead24b05b37762cb5bce"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/MLP Apple Bloom.json",
+      "layer": "vocabulary",
+      "records": 942,
+      "bytes": 14098,
+      "sha256": "1f435341ced91db4e40532ec28065539a3fae5a113139f463e5beb169ce67bf1"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/MLP Applejack.json",
+      "layer": "vocabulary",
+      "records": 1722,
+      "bytes": 25792,
+      "sha256": "24f0cc383a605871dfbdd127cde7ef995598d50e2969c214b0628b18e2bd3882"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/MLP Fluttershy.json",
+      "layer": "vocabulary",
+      "records": 1191,
+      "bytes": 18649,
+      "sha256": "232c184665e84f0608791854ce262cd2d172392a4f12e293c9e9948e8830e7df"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/MLP Pinkie Pie.json",
+      "layer": "vocabulary",
+      "records": 1687,
+      "bytes": 26379,
+      "sha256": "e071a2ace7dfa3a4818589ed34c1cdd47cd8ec3af6e52effd05df0cd05dee9ed"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/MLP Rainbow Dash.json",
+      "layer": "vocabulary",
+      "records": 1507,
+      "bytes": 22810,
+      "sha256": "74b1f306244b0660527f4b0fd0a30c7c60d008ca8436e7f6d76ede01ac05d203"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/MLP Rarity.json",
+      "layer": "vocabulary",
+      "records": 1621,
+      "bytes": 25033,
+      "sha256": "f8274b25422a68fffdebbb8a61360c7911bfa8fc7b25c6e675adf98b7167bd14"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/MLP Spike.json",
+      "layer": "vocabulary",
+      "records": 1282,
+      "bytes": 19401,
+      "sha256": "5dcf0e0c27ac1961c49afa17fb2b5b17e11b985e50634160d963ddd56e18d904"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/MLP Twilight Sparkle.json",
+      "layer": "vocabulary",
+      "records": 1537,
+      "bytes": 26246,
+      "sha256": "283bd4aaf87bcb751c3b99a561df5d69362ed2596deee5e3ee8d0baff9bdea5b"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Park and Recreation ANDY DWYER.json",
+      "layer": "vocabulary",
+      "records": 1378,
+      "bytes": 20919,
+      "sha256": "02d543606f8c1dd4ed5bfde42abe6b99f37b650e42a249af19bbd165a08b7686"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Park and Recreation ANN PERKINS.json",
+      "layer": "vocabulary",
+      "records": 1188,
+      "bytes": 17930,
+      "sha256": "4187eb53bb8ed872db908eb9952c457587dc7d0e05b65e786305a8e90810fdfb"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Park and Recreation APRIL LUDGATE.json",
+      "layer": "vocabulary",
+      "records": 1201,
+      "bytes": 17695,
+      "sha256": "be25a3ebd6f84e0db34974ede0d99b7782e5dcaf6db4dcd22bb4c95092e58e3c"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Park and Recreation BEN WYATT.json",
+      "layer": "vocabulary",
+      "records": 1377,
+      "bytes": 20690,
+      "sha256": "7f3a55d3d0c914db1421fba683daf05cc6a412d15c886d4cd3171fe14882fafc"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Park and Recreation CHRIS TRAEGER.json",
+      "layer": "vocabulary",
+      "records": 1142,
+      "bytes": 17236,
+      "sha256": "7cf9516a110a43cebab96a2b439be05c2fd5ba016235e758170b6f3558fd4ad9"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Park and Recreation LESLIE KNOPE.json",
+      "layer": "vocabulary",
+      "records": 2666,
+      "bytes": 41200,
+      "sha256": "e8b37b5b9be245393aa5730687ff568e22b0e23295dc03ac5dbf1286ee85aa84"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Park and Recreation RON SWANSON.json",
+      "layer": "vocabulary",
+      "records": 1599,
+      "bytes": 24065,
+      "sha256": "1aad891a53a13cab2dd37c6a43e20547b02ae8368426295e1da57c37fbb5a4f9"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Park and Recreation TOM HAVERFORD.json",
+      "layer": "vocabulary",
+      "records": 1935,
+      "bytes": 28598,
+      "sha256": "88a92e197f090c65b11e15dea8e8018c90bf4abe6f674a9e0db6852d3d6f9d04"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/SATC Carrie.json",
+      "layer": "vocabulary",
+      "records": 2675,
+      "bytes": 41043,
+      "sha256": "282b34b39f603911c44a8dec233db1e3fe455a647534340af699a9fde5c3b322"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/SATC Charlotte.json",
+      "layer": "vocabulary",
+      "records": 1207,
+      "bytes": 18684,
+      "sha256": "f2e31ca81a3b4f8279364f766f4149c217ee325973775a8f8d21158f31fd6a5d"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/SATC Miranda.json",
+      "layer": "vocabulary",
+      "records": 1350,
+      "bytes": 20080,
+      "sha256": "cde934f9e541146e74cf7383e6b68fda7a0a91d2d5e5a12edc4c6ecc669f088b"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/SATC Samantha.json",
+      "layer": "vocabulary",
+      "records": 1342,
+      "bytes": 19661,
+      "sha256": "d00ac4607da3ad351add67597c4aaad67c60a73eb3ec21e7f8dd2e5119324f02"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Seinfeld ELAINE.json",
+      "layer": "vocabulary",
+      "records": 1997,
+      "bytes": 29461,
+      "sha256": "d45a1743524546402cf27a63eef83eee4b45b635a44dd6c0cfcd1b95c7d74545"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Seinfeld GEORGE.json",
+      "layer": "vocabulary",
+      "records": 2479,
+      "bytes": 36834,
+      "sha256": "fed6da7831db0af7422d166b5360017018170e18cd4efbd64c4892c780243231"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Seinfeld JERRY.json",
+      "layer": "vocabulary",
+      "records": 2996,
+      "bytes": 43717,
+      "sha256": "5b9875664f7ec6e07fe55f29fc287d59bd8085d947d9fdc6c27fdba4c9601b7b"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Seinfeld KRAMER.json",
+      "layer": "vocabulary",
+      "records": 2433,
+      "bytes": 35279,
+      "sha256": "66112fd37ddf7b02ff94e184cebb4b27b4e612f069ac10a964cb1896bf732c1c"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Simpsons Bart Simpson.json",
+      "layer": "vocabulary",
+      "records": 3687,
+      "bytes": 51584,
+      "sha256": "6e41e669f23890f7e7bdad7818de277ddd1ab947c95957149db5e8b33c1bc70e"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Simpsons C Montgomery Burns.json",
+      "layer": "vocabulary",
+      "records": 2449,
+      "bytes": 35508,
+      "sha256": "a460454b6c3b843c6d53732d40e76fbd850991e0c2db03b806626eb7deab2062"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Simpsons Chief Wiggum.json",
+      "layer": "vocabulary",
+      "records": 1323,
+      "bytes": 18464,
+      "sha256": "0a051f1f7772b47922a02fc7fbae134f136a83cfad734724db6a3de5ee9158ad"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Simpsons Grampa Simpson.json",
+      "layer": "vocabulary",
+      "records": 1542,
+      "bytes": 21431,
+      "sha256": "f54316b1b6327adf55bc14f691fdbe0c80c6a892f09125ee857064b8bc68f7ac"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Simpsons Homer Simpson.json",
+      "layer": "vocabulary",
+      "records": 6054,
+      "bytes": 82345,
+      "sha256": "8ec51b4a450b24f14fa3d56b2baef3a586793b36a9d7140d07f5aa5257398bfe"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Simpsons Lisa Simpson.json",
+      "layer": "vocabulary",
+      "records": 3630,
+      "bytes": 52119,
+      "sha256": "b94b7dddfae43cbb7c62a2236b0de490747bedc1cdc306119c5b50ea3a35ee06"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Simpsons Marge Simpson.json",
+      "layer": "vocabulary",
+      "records": 3375,
+      "bytes": 49479,
+      "sha256": "61bda4b5cea4b4b869d398a568d0553882423a0278d2cee954ed4c248eb1e628"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Simpsons Moe Szyslak.json",
+      "layer": "vocabulary",
+      "records": 2066,
+      "bytes": 28543,
+      "sha256": "8bbec82e87a7b653a7581b1b1c9f354c47a1f1b39e2026bd2793c8295589a1f9"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Simpsons Ned Flanders.json",
+      "layer": "vocabulary",
+      "records": 1725,
+      "bytes": 23861,
+      "sha256": "cdbb4f6a19b3740844b9393dc381846bb3cdc330a100a82428c6b9fbbf913ee2"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/Simpsons Seymour Skinner.json",
+      "layer": "vocabulary",
+      "records": 1834,
+      "bytes": 26260,
+      "sha256": "bb9865ee051c0cebbebe3cd3eb371992e4d82bc842e443d9bcd9f2f91451f7d8"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/South Park archive Butters.json",
+      "layer": "vocabulary",
+      "records": 1732,
+      "bytes": 25361,
+      "sha256": "b5091e7a4cdb6886d0b400d9790d11418a3a74e5533f70ff07065fc0ad1469b5"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/South Park archive Cartman.json",
+      "layer": "vocabulary",
+      "records": 3791,
+      "bytes": 54366,
+      "sha256": "a839776711c171fe90b762bb350d563880f3117f978640a771470d83dcd64f60"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/South Park archive Kyle.json",
+      "layer": "vocabulary",
+      "records": 1871,
+      "bytes": 29180,
+      "sha256": "332a4aec37bbc1b1d8eb205e8044c0f8acf7922aea3d6eb7d26d5d62683f2356"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/South Park archive Mr Garrison.json",
+      "layer": "vocabulary",
+      "records": 1083,
+      "bytes": 16422,
+      "sha256": "011bd7114ccae890e5f0c40afae2c464cc0f02b4e616bdd3661215a7303621d1"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/South Park archive Randy.json",
+      "layer": "vocabulary",
+      "records": 1871,
+      "bytes": 28121,
+      "sha256": "14f13698e18aeb333c59f9b31c5a893951c885b5c41781574e68e6906f0e86a7"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/South Park archive Stan.json",
+      "layer": "vocabulary",
+      "records": 1903,
+      "bytes": 29839,
+      "sha256": "e0ca1d99d76bc78457672dd7bf89af33a0ba7eb0d4632970f581c9e8a6cbbd99"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/SpongeBob Mr Krabs.json",
+      "layer": "vocabulary",
+      "records": 2094,
+      "bytes": 31464,
+      "sha256": "9bc2e21c2a39c59be71caf6e382faf1871112c7aa3efc63db4fed3d0fd7ffea2"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/SpongeBob Patrick.json",
+      "layer": "vocabulary",
+      "records": 1749,
+      "bytes": 26132,
+      "sha256": "e844a8f0ad8fdce9ad70aa24664013b921cc9591c6b02f7a28c6d0868c69b5e3"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/SpongeBob Plankton.json",
+      "layer": "vocabulary",
+      "records": 1406,
+      "bytes": 20826,
+      "sha256": "abeb89dffa1af0747ff6d8ca867ba74d287e1bfa811c3f1ea46bdc1be6dd2992"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/SpongeBob Sandy.json",
+      "layer": "vocabulary",
+      "records": 1118,
+      "bytes": 15927,
+      "sha256": "4a0f17340eebc9babb43194cf1172da69fa1020235e11777feeeb96b0fa7f611"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/SpongeBob Spongebob.json",
+      "layer": "vocabulary",
+      "records": 3077,
+      "bytes": 45579,
+      "sha256": "b4b7dc0105570ca03bf23e0dece3e8d2bf69d39b4aec81c7d7fc9d284309785a"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/SpongeBob Squidward.json",
+      "layer": "vocabulary",
+      "records": 1751,
+      "bytes": 26696,
+      "sha256": "b3f892a117acf0b77e3e482dde01dc1074cd17431029911cf490f5dfe8dd1ce8"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/The Office Andy.json",
+      "layer": "vocabulary",
+      "records": 1880,
+      "bytes": 27785,
+      "sha256": "7c1654276821f61e3a8e0d50bbe5226c2b01c707187ba8b663ab9580ded96019"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/The Office Angela.json",
+      "layer": "vocabulary",
+      "records": 754,
+      "bytes": 10802,
+      "sha256": "16043e955b12ec553ceeb344661fb415f98e7857fa60583f3f709809dc6704d5"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/The Office Dwight.json",
+      "layer": "vocabulary",
+      "records": 2603,
+      "bytes": 39135,
+      "sha256": "77f5b339966697ce5727e4d3cc4258d15a8bd4dfc8cdc09ff1551975d33f200d"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/The Office Erin.json",
+      "layer": "vocabulary",
+      "records": 731,
+      "bytes": 10024,
+      "sha256": "b893c6e6b8ea1b25ea36d50ef58a4f3df670aa636712fbe29da4ed81d6bf3860"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/The Office Jim.json",
+      "layer": "vocabulary",
+      "records": 1588,
+      "bytes": 24745,
+      "sha256": "5d7cd4f94e57d16eaa60b3ae076318df1d96fa2ba203fa5410e659e9ce80eb3f"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/The Office Kevin.json",
+      "layer": "vocabulary",
+      "records": 770,
+      "bytes": 10764,
+      "sha256": "2530502fc11f9fba14c3ae6f697ea8de9af055db3ae1b23605788a3e5c48ff7c"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/The Office Michael.json",
+      "layer": "vocabulary",
+      "records": 2859,
+      "bytes": 42619,
+      "sha256": "49ce1973a3a977c7bc3b0fb92a9b262d274ce06975d1ccb99f84a1d6ab323d36"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/The Office Oscar.json",
+      "layer": "vocabulary",
+      "records": 650,
+      "bytes": 9481,
+      "sha256": "d2d07ba103576dfdb2f9905ee17b6aefe38ce6bd98a1ebe3aa6319cda725c418"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/The Office Pam.json",
+      "layer": "vocabulary",
+      "records": 1439,
+      "bytes": 22262,
+      "sha256": "2b96cb3faac4e6d77b36fdf5f26a72a49d9dc41a0e3b29d9322e96020bb741e6"
+    },
+    {
+      "path": "vocab_by_character_clean_v1/The Office Ryan.json",
+      "layer": "vocabulary",
+      "records": 636,
+      "bytes": 9332,
+      "sha256": "12079e735afb5e0148437885f27aaca410747e2b1d78cab6cbd280bd95ab1200"
+    }
+  ]
+}
