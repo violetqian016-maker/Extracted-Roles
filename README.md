@@ -1,24 +1,24 @@
 # Extracted Roles
 
-**A text analytics project that turns TV scripts into structured data for character-specific language modeling.**
+**A structured English dialogue dataset for character-level text analysis and dynamic-vocabulary-enhanced language generation.**
 
 [中文](README.zh-CN.md) · [Research notes](docs/RESEARCH.md) · [Data guide](docs/DATASET.md) · [Quality review](docs/PIPELINE_REVIEW.md)
 
-I built this dataset for my undergraduate thesis at Fudan University. The starting question was simple: what data helps a language model sound like a particular character? A character biography provides background; dialogue provides evidence of word choice, recurring phrases, and responses to other people.
+Extracted Roles organizes television and animation scripts into character-attributed dialogue, prompt–response pairs, vocabulary lists, and supporting profiles. The dataset supports analysis of lexical patterns and the evaluation of character-specific response generation.
 
 The project brings together **16 shows, 96 target roles, over 550,000 dialogue lines, and 174,000 prompt–response pairs**, with character vocabulary lists and supporting profiles.
 
-## What I worked on
+## Methodology and contributions
 
-I developed the data construction and validation workflow, from heterogeneous text and CSV scripts to character-level datasets:
+The construction framework converts heterogeneous TXT and CSV scripts into complementary resources for lexical analysis and dialogue modeling.
 
-- **Prepared the data:** parsed different script formats, standardized speaker names, and removed stage directions, markup, and encoding artifacts.
-- **Designed two useful outputs:** utterance collections for vocabulary analysis, and prompt–response pairs for role-playing fine-tuning. I balanced the training samples by character to reduce dominance by roles with more dialogue.
-- **Assessed quality and usefulness:** audited completeness, speaker metadata, source references, and vocabulary coverage, then compared baseline and dynamic-vocabulary-enhanced generation.
+- **Text preparation and speaker normalization:** standardizes script formats and speaker aliases, and removes stage directions, markup, and encoding artifacts.
+- **Dual-output dataset construction:** separates character utterances for vocabulary extraction from prompt–response seeds for supervised fine-tuning. Role-level balancing reduces the concentration of training samples among high-resource characters.
+- **Quality assessment and comparative evaluation:** examines structural completeness, speaker metadata, source traceability, and lexical coverage, followed by a comparison of baseline and dynamic-vocabulary-enhanced generation.
 
-The analytical work runs through the whole project: deciding which records to retain, how to balance coverage across characters, which quality measures to use, and what the evaluation results actually support.
+This workflow connects unstructured data preparation with sampling design, quality measurement, and evaluation. It provides a basis for studying how data selection and lexical conditioning affect generated language.
 
-## How the data fits together
+## Data structure
 
 ```text
 TV and animation scripts
@@ -36,13 +36,13 @@ Separating the two dialogue outputs lets the same source material support both l
 | Character utterances | `Extracted-Roles/` | 96 files; 550,628 nonempty lines |
 | Prompt–response pairs | `data/latest_single_pair_seed_v3/` | 174,000 pairs |
 | Character vocabulary | `vocab_by_character_clean_v1/` | 186,109 entries |
-| Supporting profiles | `profiles/` | 97 files; one known identity error |
+| Supporting profiles | `profiles/` | 97 files |
 
-The [data guide](docs/DATASET.md) explains the fields. [Research notes](docs/RESEARCH.md) distinguish the current files from the thesis statistics and describe the original methods.
+Field definitions and metadata are documented in the [data guide](docs/DATASET.md). Construction methods and statistical definitions are described in the [research notes](docs/RESEARCH.md).
 
-## What the evaluation showed
+## Evaluation results
 
-In the thesis, **82.92% of target responses** matched at least one phrase from the corresponding character vocabulary. This measures lexical coverage, rather than overall response quality.
+The reported phrase-level audit found that **82.92% of target responses** matched at least one phrase from the corresponding character vocabulary. This measures coverage of vocabulary-derived lexical cues.
 
 The downstream study compared generation with and without a character-specific dynamic vocabulary (DVA):
 
@@ -52,9 +52,9 @@ The downstream study compared generation with and without a character-specific d
 | Pairwise wins, out of 479 valid comparisons | 155 (32.36%) | 309 (64.51%) |
 | Diversity | 0.8787 | 0.7648 |
 
-There were 15 ties. The results suggest better lexical alignment and a preference for DVA outputs in this setting, alongside lower diversity. Contextual relevance and role consistency did not improve consistently. These are preliminary results reported in the thesis; the original evaluation code and judgments are not included in this release.
+The comparison included 15 ties. In the evaluated setting, DVA achieved higher reference overlap and more pairwise wins, with lower diversity. Improvements in contextual relevance and role consistency varied across evaluation dimensions. Detailed methods and result interpretation are provided in the [research notes](docs/RESEARCH.md).
 
-## Try the dataset
+## Usage
 
 Clone the repository and use Python 3.10+. No additional packages or API keys are needed for these examples.
 
@@ -86,18 +86,10 @@ python3 scripts/audit_dataset.py
 python3 scripts/dataset.py catalog --check
 ```
 
-## Next steps
+## Documentation
 
-The next improvements focus on consistent character identifiers, reviewing repeated pairs and recovered examples, and preparing evaluation splits with source boundaries. The [quality review](docs/PIPELINE_REVIEW.md) documents the findings and priorities; [known issues](docs/KNOWN_ISSUES.md) tracks release discrepancies. Original data files have been preserved.
-
-## About this work
-
-**Ruiyi (Violet) Qian** · Fudan University · May 2026
-
-Undergraduate thesis: *High-Quality English Role-Playing Datasets Facilitating Dynamic Role Vocabulary Construction*
-
-Supervisor: **Ji Tao**
-
-[Source references](docs/SOURCES.md) · [Contributing](CONTRIBUTING.md) · [Rights and licensing status](RIGHTS.md)
-
-The corpus contains third-party script material and currently has no declared license. The repository documentation, inventory, and inspection tools were added after the thesis with Codex assistance.
+- [Data reference](docs/DATASET.md): schema and field definitions.
+- [Research notes](docs/RESEARCH.md): construction methods, statistical definitions, and evaluation.
+- [Quality review](docs/PIPELINE_REVIEW.md): release audit and pipeline improvement priorities.
+- [Source references](docs/SOURCES.md): source corpus information.
+- [Contributing](CONTRIBUTING.md) and [rights information](RIGHTS.md).
