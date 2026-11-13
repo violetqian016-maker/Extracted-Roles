@@ -41,7 +41,7 @@ Source references contain paths such as `Full Scripts_stageclean_all_v1/...` and
 
 ## Profiles
 
-`profiles/*.json` contains one object per file, with string fields `character_name`, `series_name`, `identity`, `background`, `personality`, `world_setting`, and `style_guide`, plus a `relationships` object. The generation method and supporting sources are not bundled. Profile facts and quoted catchphrases require review.
+`profiles/*.json` contains one object per file, with string fields `character_name`, `series_name`, `identity`, `background`, `personality`, `world_setting`, and `style_guide`, plus a `relationships` object. The thesis describes Wikipedia-based extraction with Qwen2.5-72B-Instruct, an 8,000-character source limit, and temperature 0.1; see [RESEARCH.md](RESEARCH.md). Exact Wikipedia revisions and the generation code are not bundled. Profile facts and quoted catchphrases require review.
 
 ## Vocabulary
 
@@ -53,4 +53,4 @@ Run `python3 scripts/dataset.py catalog` after changing any corpus files. The in
 
 ## Provenance still to document
 
-The maintainer should add the original transcript URLs and versions, acquisition dates, extraction scripts and settings, profile creation method, word-count rules, and selection/scoring definitions. No train/validation/test split is supplied; any downstream split needs its own leakage assessment.
+Transcript URLs cited in thesis Appendix A are listed in [SOURCES.md](SOURCES.md); construction and profile-generation methods are summarized in [RESEARCH.md](RESEARCH.md). Source versions, acquisition dates, executable extraction scripts, complete settings, word-count rules, and exact selection/scoring definitions remain to be supplied. No train/validation/test split is supplied; any downstream split needs its own leakage assessment.

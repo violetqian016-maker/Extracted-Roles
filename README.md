@@ -1,6 +1,8 @@
 # Extracted Roles — Undergraduate Research Dataset
 
-A character-centered dialogue dataset developed by **Ruiyi (Violet) Qian** as part of her undergraduate research at **Fudan University**, supporting the study of character language and LLM role-playing.
+A character-centered dialogue dataset developed by **Ruiyi (Violet) Qian** as part of her undergraduate research at **Fudan University**, for dynamic-vocabulary-enhanced English role-playing.
+
+**Thesis:** *High-Quality English Role-Playing Datasets Facilitating Dynamic Role Vocabulary Construction* (May 2026), supervised by **Ji Tao**.
 
 The project turns television and animation dialogue into structured research resources: **550,628 dialogue lines** across **16 series and 96 character files**, **174,000 prompt–response pairs**, and accompanying character profiles and vocabulary lists.
 
@@ -8,37 +10,52 @@ The project turns television and animation dialogue into structured research res
 
 ## My research contribution
 
-My undergraduate work centered on constructing the dataset and evaluating its use for character-conditioned generation:
+My thesis develops a data construction and validation framework for the Dynamic Vocabulary Approach (DVA), with three main contributions:
 
-- **Dialogue cleaning and standardization.** Cleaned more than 550,000 dialogue lines through text normalization, speaker-name mapping, and removal of non-dialogue content and encoding artifacts.
-- **Prompt–response dataset construction.** Built 174,000 pairs from adjacent dialogue turns, using deduplication, quality filtering, and character-level balancing to prepare structured inputs and target-character responses.
-- **Data quality checks.** Checked completeness, speaker consistency, and source traceability during dataset construction. The released pair records retain identifiers, speaker metadata, source references, and quality annotations for inspection.
-- **Role-playing evaluation.** Compared baseline LLM outputs with a dynamic-vocabulary-enhanced setting using automated metrics and LLM-based pairwise comparisons. My project summary reports a **64.5% win rate across 479 valid comparisons** for the enhanced setting.
+1. **A dual-output construction framework.** I separate character utterances for dynamic vocabulary extraction from prompt–response seeds for supervised fine-tuning. The pipeline covers heterogeneous script parsing, cleaning, speaker normalization, utterance extraction, adjacent-turn pairing, and auxiliary profile construction. In the thesis parsing audit, robust parsing recovered 415,968 dialogue lines versus 314,643 with a strict parser from the same 587,222 raw lines (§4.2.2).
+2. **A balancing strategy tailored to each data objective.** I preserve character-specific lexical evidence in the utterance corpus and apply quality-aware role-level softcap balancing to the seed corpus. The thesis reports **1,025–2,000 seeds per role**, reducing dominance by high-resource characters while retaining usable lower-resource roles (§4.2.6; Table 5).
+3. **Rule-based validation and lexical auditing.** I audit sample completeness, speaker consistency, source references, duplicate IDs, and formatting residues. The thesis reports zero failures on its six final structural checks (Table 7). A phrase-matching audit found that **82.92% of target responses** matched at least one phrase in the corresponding character vocabulary, averaging **2.38 matches per response** (Table 6).
 
-The construction methods and evaluation result above are documented in my project summary. The corpus counts can also be checked directly from this release. The full thesis, evaluation outputs, and original pipeline are not included here, so this repository does not yet independently reproduce the reported win rate. See [Research context](docs/RESEARCH.md) for the evidence boundary.
+The contribution is the **DVA-oriented data framework and its validation**, rather than a new dynamic vocabulary algorithm. Profiles are auxiliary metadata; script-derived utterances supply the primary lexical evidence.
 
 ## Why this dataset matters
 
-Character role-playing experiments need evidence of how a character speaks as well as descriptive information about who the character is. This dataset provides several complementary resources for studying that relationship:
+The thesis addresses a practical requirement for recognizable character voice: models need reliable evidence of a character's recurring words and phrases, as well as examples of how that character replies in conversation. The two core outputs serve those different needs:
 
-| Resource | Research value |
+| Resource | Intended research use |
 | --- | --- |
-| Character-specific dialogue | Supports analysis of recurring expressions, lexical preferences, and differences between characters |
-| Prompt–response pairs | Provides interlocutor prompts and target-character replies for character-conditioned generation experiments |
-| Character vocabulary | Provides candidate words and phrases for studying vocabulary-based conditioning, including the dynamic-vocabulary approach explored in the undergraduate project |
-| Character profiles | Provides descriptive context that can be compared with dialogue-derived language evidence, subject to factual review |
-| Pair-level source and quality metadata | Allows researchers to inspect retained examples and apply their own filtering decisions |
+| Character utterances | Extract recurrent expressions and lexical patterns for dynamic role vocabulary construction |
+| Prompt–response seeds | Provide local conversational inputs and target-character responses for supervised fine-tuning |
+| Character vocabulary lists | Supply lexical cues for character-conditioned generation and phrase-level analysis |
+| Structured profiles | Supply auxiliary identity and background information for role conditioning |
+| Source and quality metadata | Support sample inspection, filtering, and analysis of balancing/recovery decisions |
 
-Coverage across 16 series makes it possible to compare characters within a series and explore differences across series. The current release supplies the data for such experiments; it does not establish cross-series generalization or a validated benchmark. Cross-layer identity alignment and leakage-aware evaluation splits still require explicit preparation.
+This design connects lexical analysis and conversational supervision using the same target-role pool. Role-level balancing reduces extreme training-data polarization, while retained metadata makes selection decisions inspectable. Coverage spans **16 shows and 96 target roles** in the thesis. The released profiles still require identity review; see [Known issues](docs/KNOWN_ISSUES.md).
+
+## Results reported in the thesis
+
+The downstream experiment compares a baseline with a DVA-enhanced generation setting using the same base model and configuration, with character-specific dynamic vocabulary added in the enhanced setting (§5.6).
+
+| Measure | Baseline | DVA-enhanced |
+| --- | ---: | ---: |
+| ROUGE-L | 6.097 | 8.734 |
+| Pairwise wins, out of 479 valid comparisons | 155 (32.36%) | **309 (64.51%)** |
+| Diversity | 0.8787 | 0.7648 |
+
+There were **15 ties (3.13%)**, and 479 of 480 attempted comparisons received complete scores. These results provide preliminary evidence of improved lexical alignment and pairwise preference in the tested setting. The thesis also reports increased repeated phrase patterns, lower diversity, and inconsistent gains in contextual relevance and role consistency. The experiment does not establish that seed fine-tuning alone caused the improvement.
+
+The figures above are transcribed from thesis Tables 9–10, not reproduced by this repository's checks. See [Research context](docs/RESEARCH.md) for methods, interpretation, and the distinction between thesis statistics and the current release.
 
 ## Dataset at a glance
 
 | Resource | Files | Records |
 | --- | ---: | ---: |
-| Character dialogue text | 96 | One nonempty line per utterance |
+| Character dialogue text | 96 | 550,628 nonempty lines |
 | Prompt–response pairs | 96 | 174,000 pairs |
 | Character profiles | 97 | 97 profile objects |
 | Character vocabulary | 96 | 186,109 entries |
+
+The thesis reports **550,601 cleaned utterances** (Table 4); the current release contains **550,628 nonempty text lines**, a difference of 27 that has not yet been reconciled. The current minimum seed count per role is 1,083, versus 1,025 in thesis Table 5; total pairs, maximum, and median agree.
 
 These are file and record counts, not a verified count of distinct identities across every layer. In particular, the extra profile has a known identity mismatch. Vocabulary counts include entries as stored, without global deduplication.
 
@@ -92,7 +109,7 @@ Avatar, Big Bang Theory, Bones, Friends, Futurama, Game of Thrones, House, How I
 
 All stored JSON files are structurally validated. Pair identifiers are checked for uniqueness across the pair layer. The generated [catalog](docs/catalog.json) records each file's relative path, record count, byte size, and SHA-256 digest; CI checks that it stays synchronized with the data.
 
-Structural validation does not establish factual accuracy, correct speaker attribution, conversation adjacency, or permission to reuse the source material. Some retained pairs have short-turn flags or recovery metadata. Upstream script paths appear in source references but those scripts and extraction procedures are not included. Read the [data reference](docs/DATASET.md) and [known issues](docs/KNOWN_ISSUES.md) before interpreting results.
+Structural validation does not establish factual accuracy, correct speaker attribution, conversation adjacency, or permission to reuse the source material. Some retained pairs have short-turn flags or recovery metadata. Upstream script paths appear in source references but those scripts and the original executable pipeline are not included. The methodology is summarized in [Research context](docs/RESEARCH.md), and Appendix A source links are recorded in [Sources](docs/SOURCES.md). Read the [data reference](docs/DATASET.md) and [known issues](docs/KNOWN_ISSUES.md) before interpreting results.
 
 ## Contributing
 
@@ -105,4 +122,8 @@ python3 scripts/dataset.py catalog --check
 
 ## Licensing and attribution
 
-This repository currently has no declared license. No blanket license is applied to the included television dialogue or other third-party content. Source URLs, extraction dates, and rights information remain to be documented by the maintainer. See [RIGHTS.md](RIGHTS.md) for the current status.
+This repository currently has no declared license. No blanket license is applied to the included television dialogue or other third-party content. Source URLs from the thesis are recorded in [Sources](docs/SOURCES.md); acquisition dates, source versions, and rights information remain to be documented. See [RIGHTS.md](RIGHTS.md) for the current status.
+
+## Thesis reference
+
+Qian, Ruiyi. (2026). *High-Quality English Role-Playing Datasets Facilitating Dynamic Role Vocabulary Construction*. Undergraduate thesis, College of Foreign Languages and Literature, Fudan University. Supervisor: Ji Tao. Completed May 25, 2026.
