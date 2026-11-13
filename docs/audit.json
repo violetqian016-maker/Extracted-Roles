@@ -1,0 +1,1947 @@
+{
+  "schema_version": 1,
+  "scope": "Released pairs; casefold and whitespace normalization; no data edits",
+  "pair_count": 174000,
+  "role_files": 96,
+  "pairs_per_role": {
+    "min": 1083,
+    "max": 2000,
+    "median": 1900.0
+  },
+  "duplicate_key": [
+    "series_folder",
+    "target_char",
+    "normalized_prompt",
+    "normalized_response"
+  ],
+  "duplicate_groups": 139,
+  "duplicate_excess_records": 139,
+  "duplicate_members": [
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::AMY::ANGELA::cd373d120d51ac34"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::AMY::ANGELA::daebdfa5290735c4"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::ARASTOO::ANGELA::46baf92ef3c785e4"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::ARASTOO::ANGELA::33b2ed10534d3b1b"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::ARASTOO::ANGELA::53fe41e224f27fe2"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::ARASTOO::ANGELA::7311d1093c9f3cb4"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::CAROLINE::ANGELA::ea0f9c06b3e9100c"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::CAROLINE::ANGELA::f9477590139eaa97"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::CAROLINE::ANGELA::fa88516cef01f0b7"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::CAROLINE::ANGELA::a066fb3b09d99d00"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::CAROLINE::ANGELA::865fdbb23bb0fac6"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::CAROLINE::ANGELA::cc1b702b2b5353af"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::CLARK::ANGELA::00b0dd61d995af0b"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::CLARK::ANGELA::c80504d7b463f810"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::GOODMAN::ANGELA::4ecc06c77d3c0011"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::GOODMAN::ANGELA::637ebfd58479e14f"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::GOODMAN::ANGELA::fee68c82c763ff41"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::GOODMAN::ANGELA::e3ae3b33a0c3b2a9"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::GOODMAN::ANGELA::96b532d7ef9905ba"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::GOODMAN::ANGELA::9275ada59cca7cc7"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::GOODMAN::ANGELA::afaf992b5a821975"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::GOODMAN::ANGELA::ed010699e2360042"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::GRAVEDIGGER_S_VOICE::ANGELA::dd81aa4bf64511de"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::GRAVEDIGGER_S_VOICE::ANGELA::3ea9c68d8091b892"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::HARDEWICKE::ANGELA::2a9cd67bd4b2d416"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::HARDEWICKE::ANGELA::ba3248619af7b161"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::HODGNS::ANGELA::9e189451d191aa9a"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::HODGNS::ANGELA::5e0b9362119125d5"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::MR_NIGEL_MURRAY::ANGELA::646e4bf5bba6bb21"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::MR_NIGEL_MURRAY::ANGELA::8d4ad80f00c5c3d7"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::PARKER::ANGELA::623bf98473a8d775"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::PARKER::ANGELA::fe4639a20d99f5aa"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::PICKERING::ANGELA::143e86c4e0bcbea2"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::PICKERING::ANGELA::577facb41849749b"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::TROY::ANGELA::8aa30e6f972d7cca"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::TROY::ANGELA::2c7596e5a8f891dd"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::BOOTH::ANGELA::4ca7332f91de8d88"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::BOOTH::ANGELA::8a63e614831f75cb"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::BOOTH::ANGELA::34f11ef4e9a74ea3"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::BOOTH::ANGELA::7921b82ceae4d47c"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::BRENNAN::ANGELA::fc65ff3e9ceba9d7"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::BRENNAN::ANGELA::21a7a8d4dd41dfa2"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::BRENNAN::ANGELA::ace7ab87c0d26c6b"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::BRENNAN::ANGELA::ff58db0687c96d9c"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::BRENNAN::ANGELA::7828d458d3231235"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::BRENNAN::ANGELA::a3a8d37b538fabcb"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::CAM::ANGELA::d207b33e4fc573be"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::CAM::ANGELA::19bbaadd16ff8ca1"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::HODGINS::ANGELA::25b68894a0670d4c"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::HODGINS::ANGELA::2429dc69ab95fc35"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::HODGINS::ANGELA::3b6bef68568d8334"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::HODGINS::ANGELA::f0271b54ab515813"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::HODGINS::ANGELA::5c436e885aac4ffc"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::HODGINS::ANGELA::c4778a249820675f"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::ZACK::ANGELA::56da1cda3c1a0160"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+        "pair_id": "Bones::ZACK::ANGELA::49b60f2a81666de4"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BOOTH.json",
+        "pair_id": "Bones::DAVE::BOOTH::049b0d63ba645c92"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BOOTH.json",
+        "pair_id": "Bones::DAVE::BOOTH::4f85a1fe3f98102b"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BOOTH.json",
+        "pair_id": "Bones::SWEETS::BOOTH::6caabc38a365bf8c"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BOOTH.json",
+        "pair_id": "Bones::SWEETS::BOOTH::3b5f9be25c1e9f78"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BRENNAN.json",
+        "pair_id": "Bones::OFFICER_2::BRENNAN::a34622ba73a446b5"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BRENNAN.json",
+        "pair_id": "Bones::OFFICER_2::BRENNAN::e7c904040c58c1ee"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BRENNAN.json",
+        "pair_id": "Bones::STACIE::BRENNAN::75974bc17af28407"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BRENNAN.json",
+        "pair_id": "Bones::STACIE::BRENNAN::16f2d1ae71c7afb8"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BRENNAN.json",
+        "pair_id": "Bones::BOOTH::BRENNAN::3f3e9ccfac4d5432"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BRENNAN.json",
+        "pair_id": "Bones::BOOTH::BRENNAN::7ee300a7aee431d3"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BRENNAN.json",
+        "pair_id": "Bones::BOOTH::BRENNAN::2e4f956a529c14cd"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BRENNAN.json",
+        "pair_id": "Bones::BOOTH::BRENNAN::808aa0573c4e14cc"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ARASTOO::CAM::ff157313505eaf76"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ARASTOO::CAM::5b0f0ca0088cb621"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ARASTOO::CAM::10fecc501c9e30d3"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ARASTOO::CAM::5f66973779344c77"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ARASTOO::CAM::5e641244f8564f6c"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ARASTOO::CAM::b7f53a283c84e511"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ARASTOO::CAM::3909df63288441a4"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ARASTOO::CAM::2084a217e55822d3"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::CAROLINE::CAM::4cb624a6d2f09b1c"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::CAROLINE::CAM::54c5f215eb9b3b3d"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::MICHELLE::CAM::9025845f0cbd0f83"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::MICHELLE::CAM::8be836266bb1ac34"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::RADSWELL::CAM::72961ad2aa04ca63"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::RADSWELL::CAM::86201da837a5208a"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::VOICE::CAM::60d8d7ca19dd504e"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::VOICE::CAM::5b608268f13865ae"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ANGELA::CAM::c42befff892925b8"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ANGELA::CAM::8be2bcf3af83f394"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ANGELA::CAM::4eb28939e8cf04b5"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ANGELA::CAM::869ebb2394955592"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ANGELA::CAM::175e77a99087a7ce"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::ANGELA::CAM::8a641ce265b71221"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BOOTH::CAM::887542e058e7553c"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BOOTH::CAM::771c72525d8452ce"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BOOTH::CAM::51c6242a34e10611"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BOOTH::CAM::168a2efda9ba461a"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BOOTH::CAM::335bfad79876c264"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BOOTH::CAM::f391cd2a84d39a06"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BOOTH::CAM::872e34bd14c034e2"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BOOTH::CAM::ca73bfbd9e7559f6"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BOOTH::CAM::2b25406627d5f487"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BOOTH::CAM::7a10b64db3281c15"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BRENNAN::CAM::62976e9af1d723ae"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BRENNAN::CAM::f5ee947d1f5f857f"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BRENNAN::CAM::7b05aa25fe54b190"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::BRENNAN::CAM::76635253887776e5"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::HODGINS::CAM::7c3e977f1c2cb6e2"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::HODGINS::CAM::db912f5e3378d65a"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::HODGINS::CAM::acf727f321f41092"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+        "pair_id": "Bones::HODGINS::CAM::52335ba2a24fe393"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BUNSEN_JUDE::HODGINS::08f8b8e471f704a5"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BUNSEN_JUDE::HODGINS::c0b28077d7446bac"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BUNSEN_JUDE::HODGINS::268200113d446c36"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BUNSEN_JUDE::HODGINS::da367722ff6f877e"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::CLARK::HODGINS::88507112fd2e6e51"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::CLARK::HODGINS::9714ce3bd29d225b"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::DANE::HODGINS::8183e0fdccc863ee"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::DANE::HODGINS::c9cf167edc3c1f47"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::DANE::HODGINS::57529367984433bb"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::DANE::HODGINS::5948afb30e964ab9"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::HANNAH::HODGINS::0a0f101dea913775"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::HANNAH::HODGINS::c6f3d786dfb77290"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::KLIMKEW::HODGINS::d5fa21b156240d06"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::KLIMKEW::HODGINS::0fc4284038abfa9e"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::MARY_KAY::HODGINS::260615217d66f0f0"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::MARY_KAY::HODGINS::abae6b474be6af6c"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::RIGBY::HODGINS::75e87e0bdbfe9da5"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::RIGBY::HODGINS::1eef2c815e09c0d2"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::TONI::HODGINS::b49adf6aa6e18a8e"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::TONI::HODGINS::dcb7f24a3c4429cc"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::VINCENT::HODGINS::ef5050575719b4b8"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::VINCENT::HODGINS::c4275d2e4edc23be"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::ANGELA::HODGINS::31e4ec1228b44a52"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::ANGELA::HODGINS::4e335b11442b4ab8"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::ANGELA::HODGINS::815d08959bb5c77f"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::ANGELA::HODGINS::a8c88de8f9087a17"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BOOTH::HODGINS::46df5fa03d5bad6e"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BOOTH::HODGINS::17816ad0ce15112e"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BOOTH::HODGINS::70cfb9206aee5580"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BOOTH::HODGINS::0e45e86ae6c1c2e4"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BOOTH::HODGINS::5bab41e9df97909a"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BOOTH::HODGINS::ee0a99d10a6bc4a3"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BOOTH::HODGINS::829a7439006854fb"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BOOTH::HODGINS::823dd5ccb6751e50"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BOOTH::HODGINS::78e76788a3e6ec04"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BOOTH::HODGINS::3d76673234a34b03"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BRENNAN::HODGINS::1dacb5bc425df864"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::BRENNAN::HODGINS::aa9c4022f54ad89e"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::CAM::HODGINS::0c5ff4af9af418aa"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::CAM::HODGINS::9b37cc91d104270e"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::CAM::HODGINS::3241e06e3a8f3e04"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::CAM::HODGINS::5175c90c20df13a0"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::ZACK::HODGINS::94e8099a1b220d99"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+        "pair_id": "Bones::ZACK::HODGINS::5c8de06a3390be88"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BRENNAN::SWEETS::78518bddeb685fd8"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BRENNAN::SWEETS::229ecaa8aa137410"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::ELLIOT::SWEETS::c451c4ca09a60ad1"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::ELLIOT::SWEETS::6105ac7ea960e22a"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::JARED::SWEETS::d118632070c340d0"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::JARED::SWEETS::ce1da77c6aaa52cd"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::JARED::SWEETS::196c583e0f018552"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::JARED::SWEETS::8908f9ac89bf51d9"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::KELLY_BESSETTE::SWEETS::42df0688e63397ba"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::KELLY_BESSETTE::SWEETS::be1c04d09759e08b"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::82a30f106fd14ebb"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::bfba829f05f74a0d"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::fb7dadcaac6d182b"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::7b31d998d581302c"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::3b7f4f0ec754100c"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::df660ed19a8906b3"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::0558849530bf0cd2"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::d8be939faae69832"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::2aa2037d298bacfa"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::8d7ad1799f2880d0"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::b3ecb3b291d3cd98"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::9fc4342e9c280a4c"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::582b0b4a07d70d02"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::c2f9e3689fc6f047"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::47641842819477c5"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::200c1002f46ad0d2"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::f0dede48f52b38de"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::59acd7480368c630"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::9e4dfd0e8d9d83d0"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::ee8385d27406aebc"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::393ce91f0529e2a8"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BOOTH::SWEETS::700ee2853efe365e"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BRENNAN::SWEETS::c78d936d72d05331"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BRENNAN::SWEETS::8f881ec6c804de45"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BRENNAN::SWEETS::309eb51d95c37a41"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BRENNAN::SWEETS::d4ebe91267b752b3"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BRENNAN::SWEETS::a322794b01214dfd"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BRENNAN::SWEETS::5659627ebe7556ec"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BRENNAN::SWEETS::22534756b56b589f"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::BRENNAN::SWEETS::757069af1672734b"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::CAM::SWEETS::957317480e51c452"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::CAM::SWEETS::319f42eb5cf69978"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::HODGINS::SWEETS::a5b2a78a96edb467"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::HODGINS::SWEETS::17b119db41e73a28"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::4ffb48fb68b821d9"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::666e28c6e4182ead"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::d1f9accc42b4e7a1"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::eaa7d4ae0b89e1d0"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::6c739a042dbc4228"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::5ece77cad6de0a22"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::ZACK::context2::d95cb82a005f0110"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::ZACK::context2::d15fe5d8fc1aee68"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::16df997cf7da4276"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::9404bbff530858e9"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::17f5ed8bf2cba336"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::b047dd6a680d1e9e"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::CHARLIE::ZACK::71060d7275cb611d"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::CHARLIE::ZACK::d3e526225d2f0bb2"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::DENISE::ZACK::0aa9b6a8199aa9f8"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::DENISE::ZACK::5b7a58a8e86eefc7"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::KRISTEN::ZACK::ec587b82359df675"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::KRISTEN::ZACK::f10f3e579fed4de5"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::SHERIFF::ZACK::02f3cdf7a50f6ad7"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::SHERIFF::ZACK::acf3530c4547297d"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::TONI::ZACK::f5e887e99168dc76"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::TONI::ZACK::6bfaa454005aead4"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::96efef02021bf1c8"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::6382dc9f9ad7db3f"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::80e23a57895bef7b"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::28aaf9c99e4bd6c9"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::e431eaaa21e422e0"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::302f85364a97c592"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::b0ab981455ebb476"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::4807f1069f474394"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::9196feee14650a08"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::3415c8ecc5fe6297"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::b64b79cd6c61cfca"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::413853b343b7075f"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::deb62e280844a78c"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BOOTH::ZACK::c73d72a98478da2f"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::7a8b7633d166f626"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::17d4bb259bfc8dad"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::18758687e42e5745"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::9eecea0a6a05d8fb"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::f2564accdf75b242"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::ddae226a3b7fb2b1"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::44d541ea048c7b6d"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::7b9e50849c7dead7"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::685a580e26df1b30"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::7fc6b0f1a16f7c75"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::5f1debca3a58ec32"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::9999df68142e1dfe"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::64774c3c1d90ffc6"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::ad2eae238d61f243"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::e0534d9fb458eedc"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::e8f9be9737cc542a"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::d8685de1bc3f28e4"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::fbd9e3e37804dac1"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::d2545f9102ebc7a3"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::84e9df028ae7e81b"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::abee904d78e4cefd"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::03484176c1823673"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::bbf5ba5284c1dc95"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::787363bd00e8d7a8"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::b47cbef0f41749ce"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::c753b3faa984b0e1"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::66a54755d3b59ea8"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::BRENNAN::ZACK::490ce3f1311b4112"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::CAM::ZACK::d60bac829fd3c6f7"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::CAM::ZACK::ef7b5ff5383a3a7c"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::15ebcf6d3d379993"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::7f7fb029fd371607"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::60d6c190698bf0d7"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::34a5f39d9ed4af9c"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::1771081d89d1f2f6"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::2355ff621475fdf0"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::1e6909055071c835"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::b79c66ef24352bd4"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::a477e2929ba3b126"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::3ec56689b3783edf"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::6b8b4fa574b9921c"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::57b4edf4a731465a"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::15dcb6a108cde68a"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+        "pair_id": "Bones::HODGINS::ZACK::9b767f77845d5dba"
+      }
+    ],
+    [
+      {
+        "path": "data/latest_single_pair_seed_v3/Park and Recreation/APRIL_LUDGATE.json",
+        "pair_id": "Park and Recreation::ANDY_DWYER::APRIL_LUDGATE::069f8d0e7827ba02"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Park and Recreation/APRIL_LUDGATE.json",
+        "pair_id": "Park and Recreation::EXTRA::APRIL_LUDGATE::676a235b9d88eb3e"
+      }
+    ]
+  ],
+  "review_counts": {
+    "identical_prompt_response": 88,
+    "prompt_under_3_stored_words": 9954,
+    "response_over_50_stored_words": 4075,
+    "response_under_3_stored_words": 49
+  },
+  "review_examples": {
+    "prompt_under_3_stored_words": [
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::GUARD::AANG::b05156248ade9da2"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::GUARD::AANG::1ae1a663bd3aa210"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::BABOON_SPIRIT::AANG::b5400d750d6d21de"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::BUMI::AANG::2d74fa2000237482"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::BUMI::AANG::87e2473e1c530023"
+      }
+    ],
+    "response_under_3_stored_words": [
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::CHONG::AANG::27583ba846056f7a"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::HAKODA::AANG::08377a123fe0047b"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::PAKKU::AANG::5e035b4146dce246"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::ZHAO::AANG::01a8efac9045a99c"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::KATARA::AANG::f6634a987c8f28e0"
+      }
+    ],
+    "response_over_50_stored_words": [
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::AANG_AND_SOKKA::AANG::c500026f502d7a4d"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::THAN::AANG::3fe7cc8e2a2d8df8"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::ZHAO::AANG::ccc221d6b6d373e9"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::KATARA::AANG::859765f729d5557b"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+        "pair_id": "Avatar::KATARA::AANG::e7b18b077c32fcc3"
+      }
+    ],
+    "identical_prompt_response": [
+      {
+        "path": "data/latest_single_pair_seed_v3/Big Bang Theory/HOWARD.json",
+        "pair_id": "Big Bang Theory::BERNADETTE::HOWARD::ab02148e55f45f7b"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Big Bang Theory/PENNY.json",
+        "pair_id": "Big Bang Theory::SHELDON::PENNY::da2951f3f92797f8"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/BRENNAN.json",
+        "pair_id": "Bones::VALERIE_DANIELS::BRENNAN::b8dfcd06471eb473"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::SIMON::SWEETS::7914c885996dba09"
+      },
+      {
+        "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+        "pair_id": "Bones::HODGINS::SWEETS::414c8b08208d086e"
+      }
+    ]
+  },
+  "quality_flag_counts": {
+    "drop_prompt_too_short": 1581,
+    "drop_response_too_short": 1943,
+    "generic_response": 11,
+    "long_response": 1929,
+    "method1_relaxed_quality_recovered": 2841,
+    "method2_context_window_recovered": 518,
+    "short_prompt": 10276
+  },
+  "quality_flags_by_source_type": {
+    "drop_prompt_too_short": {
+      "borderline_real_recovered": 1063,
+      "context_window_recovered": 518
+    },
+    "drop_response_too_short": {
+      "borderline_real_recovered": 1943
+    },
+    "generic_response": {
+      "single_turn_raw_txt_robust_external_prompt": 5,
+      "single_turn_raw_txt_robust_roster_prompt": 6
+    },
+    "long_response": {
+      "low_resource_raw_rescan_same_speaker_merged": 119,
+      "single_turn_csv_external_prompt": 396,
+      "single_turn_csv_roster_prompt": 611,
+      "single_turn_raw_txt_robust_external_prompt": 226,
+      "single_turn_raw_txt_robust_roster_prompt": 577
+    },
+    "method1_relaxed_quality_recovered": {
+      "borderline_real_recovered": 2841
+    },
+    "method2_context_window_recovered": {
+      "context_window_recovered": 518
+    },
+    "short_prompt": {
+      "borderline_real_recovered": 1063,
+      "context_window_recovered": 518,
+      "low_resource_raw_rescan_same_speaker_merged": 299,
+      "single_turn_csv_external_prompt": 1876,
+      "single_turn_csv_roster_prompt": 2442,
+      "single_turn_raw_txt_robust_external_prompt": 1583,
+      "single_turn_raw_txt_robust_roster_prompt": 2495
+    }
+  },
+  "source_type_counts": {
+    "borderline_real_recovered": 2841,
+    "context_window_recovered": 518,
+    "low_resource_raw_rescan_same_speaker_merged": 4156,
+    "single_turn_csv_external_prompt": 33190,
+    "single_turn_csv_roster_prompt": 49938,
+    "single_turn_raw_txt_robust_external_prompt": 24148,
+    "single_turn_raw_txt_robust_roster_prompt": 59209
+  },
+  "role_counts": [
+    {
+      "path": "data/latest_single_pair_seed_v3/Avatar/AANG.json",
+      "pairs": 1628
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Avatar/KATARA.json",
+      "pairs": 1335
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Avatar/SOKKA.json",
+      "pairs": 1547
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/AMY.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/BERNADETTE.json",
+      "pairs": 1972
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/HOWARD.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/LEONARD.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/PENNY.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/RAJ.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Big Bang Theory/SHELDON.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/ANGELA.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/BOOTH.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/BRENNAN.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/CAM.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/HODGINS.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/SWEETS.json",
+      "pairs": 1781
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Bones/ZACK.json",
+      "pairs": 1600
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/CHANDLER.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/JOEY.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/MONICA.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/PHOEBE.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/RACHEL.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Friends/ROSS.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Futurama/BENDER.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Futurama/FRY.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Futurama/LEELA.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Game of Thrones/TYRION_LANNISTER.json",
+      "pairs": 1643
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/CAMERON.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/CHASE.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/CUDDY.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/FOREMAN.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/HOUSE.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/TAUB.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/THIRTEEN.json",
+      "pairs": 1754
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/House/WILSON.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/How I Met Your Mother/BARNEY.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/How I Met Your Mother/LILY.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/How I Met Your Mother/MARSHALL.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/How I Met Your Mother/ROBIN.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/How I Met Your Mother/TED.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/APPLEJACK.json",
+      "pairs": 1980
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/APPLE_BLOOM.json",
+      "pairs": 1171
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/FLUTTERSHY.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/PINKIE_PIE.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/RAINBOW_DASH.json",
+      "pairs": 1981
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/RARITY.json",
+      "pairs": 1923
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/SPIKE.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/My Little Pony/TWILIGHT_SPARKLE.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/ANDY_DWYER.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/ANN_PERKINS.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/APRIL_LUDGATE.json",
+      "pairs": 1633
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/BEN_WYATT.json",
+      "pairs": 1910
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/CHRIS_TRAEGER.json",
+      "pairs": 1224
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/LESLIE_KNOPE.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/RON_SWANSON.json",
+      "pairs": 1855
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Park and Recreation/TOM_HAVERFORD.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Seinfeld/ELAINE.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Seinfeld/GEORGE.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Seinfeld/JERRY.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Seinfeld/KRAMER.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Sex And The City/CARRIE.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Sex And The City/CHARLOTTE.json",
+      "pairs": 1804
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Sex And The City/MIRANDA.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Sex And The City/SAMANTHA.json",
+      "pairs": 1910
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/BART_SIMPSON.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/CHIEF_WIGGUM.json",
+      "pairs": 1688
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/C_MONTGOMERY_BURNS.json",
+      "pairs": 1809
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/GRAMPA_SIMPSON.json",
+      "pairs": 1618
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/HOMER_SIMPSON.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/LISA_SIMPSON.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/MARGE_SIMPSON.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/MOE_SZYSLAK.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/NED_FLANDERS.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/Simpsons/SEYMOUR_SKINNER.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/BUTTERS.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/CARTMAN.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/KYLE.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/MR_GARRISON.json",
+      "pairs": 1298
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/RANDY.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/South Park/STAN.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/MR_KRABS.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/PATRICK.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/PLANKTON.json",
+      "pairs": 1583
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/SANDY.json",
+      "pairs": 1179
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/SPONGEBOB.json",
+      "pairs": 1800
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/SpongeBob SquarePants/SQUIDWARD.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/ANDY.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/ANGELA.json",
+      "pairs": 1283
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/DWIGHT.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/ERIN.json",
+      "pairs": 1102
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/JIM.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/KEVIN.json",
+      "pairs": 1243
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/MICHAEL.json",
+      "pairs": 1900
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/OSCAR.json",
+      "pairs": 1163
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/PAM.json",
+      "pairs": 2000
+    },
+    {
+      "path": "data/latest_single_pair_seed_v3/The Office/RYAN.json",
+      "pairs": 1083
+    }
+  ],
+  "interpretation": "Review signals are not errors. Repeated lines may be legitimate; short or recovered samples must be assessed in context. Unique IDs do not imply unique text. No episode/split leakage audit is performed."
+}
